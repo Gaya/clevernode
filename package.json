@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "wintersmith": "^2.3.3"
+  },
+  "devDependencies": {
+    "wintersmith-livereload": "^0.2.2"
   }
 }
