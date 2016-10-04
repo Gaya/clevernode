@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node node_modules/wintersmith/bin/wintersmith build"
+    "build": "node node_modules/wintersmith/bin/wintersmith build",
+    "preview": "node node_modules/wintersmith/bin/wintersmith preview"
   },
   "author": "Gaya Kessler",
   "license": "ISC",
