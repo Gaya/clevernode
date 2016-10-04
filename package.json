@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaya Kessler",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "wintersmith": "^2.3.3"
+  }
 }
