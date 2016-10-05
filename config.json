@@ -3,6 +3,7 @@
     "title": "Bare minimum wintersmith site"
   },
   "plugins": [
-    "wintersmith-livereload"
+    "wintersmith-livereload",
+    "wintersmith-sassify"
   ]
 }
