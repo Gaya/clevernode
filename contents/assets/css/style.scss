@@ -1,5 +1,56 @@
-$bg: #000;
+@import 'reset';
+
+$bg: #f2f2f2;
+$dark-bg: #151515;
+
+$container-width: 920px;
 
 body {
   background-color: $bg;
+}
+
+%container {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+.header {
+  background: $dark-bg;
+
+  &__container {
+    @extend %container;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__box, &__name {
+    -webkit-mask-size: contain;
+    mask-size: contain;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+    background: {
+      color: $bg;
+    }
+    margin: 10px;
+  }
+
+  &__box {
+    -webkit-mask-image: url('../images/clevernode-box.svg');
+    mask-image: url('../images/clevernode-box.svg');
+    height: 80px;
+    width: 70px;
+  }
+
+  &__name {
+    -webkit-mask-image: url('../images/clevernode-logo.svg');
+    mask-image: url('../images/clevernode-logo.svg');
+    height: 40px;
+    width: 270px;
+  }
 }

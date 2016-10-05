@@ -4,9 +4,16 @@ html(lang='en')
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
         meta(name='viewport', content='width=device-width')
+        title
+            block title
+                = locals.title
         link(rel='stylesheet', href='/assets/css/style.css')
-        title= locals.title
         | !{ livereloadScript }
     body
+        header.header
+            section.header__container
+                section.header-logo.header__logo
+                    div.header-logo__box
+                    div.header-logo__name
         h1= page.title
         != page.html
