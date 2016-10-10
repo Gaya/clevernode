@@ -3,6 +3,8 @@
 $bg: #f2f2f2;
 $dark-bg: #151515;
 
+$screen-sm: 600px;
+$screen-md: 992px;
 $container-width: 920px;
 
 body {
@@ -26,6 +28,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+
+  @media (min-width: $screen-sm) {
+    padding: 30px;
+    flex-direction: row;
+  }
+
+  @media (min-width: $screen-md) {
+    padding: 60px;
+  }
 
   &__box, &__name {
     -webkit-mask-size: contain;
@@ -37,20 +50,34 @@ body {
     background: {
       color: $bg;
     }
-    margin: 10px;
+    margin: 7px;
+
+    @media (min-width: $screen-sm) {
+      margin: 10px;
+    }
   }
 
   &__box {
     -webkit-mask-image: url('../images/clevernode-box.svg');
     mask-image: url('../images/clevernode-box.svg');
-    height: 80px;
-    width: 70px;
+    height: 53px;
+    width: 55px;
+
+    @media (min-width: $screen-sm) {
+      height: 70px;
+      width: 80px;
+    }
   }
 
   &__name {
     -webkit-mask-image: url('../images/clevernode-logo.svg');
     mask-image: url('../images/clevernode-logo.svg');
-    height: 40px;
-    width: 270px;
+    height: 33px;
+    width: 212px;
+
+    @media (min-width: $screen-sm) {
+      height: 40px;
+      width: 270px;
+    }
   }
 }
