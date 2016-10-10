@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'animation';
 
 $bg: #f2f2f2;
 $dark-bg: #151515;
@@ -47,10 +48,14 @@ body {
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
 
-    background: {
-      color: $bg;
-    }
     margin: 7px;
+
+    background: linear-gradient(180deg, #f2f2f2, #f2f2f2, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900, #f2f2f2, #f2f2f2);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: LogoFade 30s ease infinite;
+    -moz-animation: LogoFade 30s ease infinite;
+    animation: LogoFade 30s ease infinite;
 
     @media (min-width: $screen-sm) {
       margin: 10px;
