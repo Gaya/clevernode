@@ -1,10 +1,11 @@
 ---
 title: CleverNode
-date: 2012-12-12 12:12
-author: John Hjort <foo@bar.com>
+date: 2016-10-10
+author: Gaya Kessler (gaya@theclevernode.com)
 template: index.jade
 ----
 
-# Hello friends!
+>(Full stack) Web Developer. Specializes in JavaScript, Sass & Automated Workflows. Standing in the
+eye of the storm bringing harmony to back-end, front-end & design.
 
 Life is wonderful, isn't it?
