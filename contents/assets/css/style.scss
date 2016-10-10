@@ -10,6 +10,9 @@ $container-width: 920px;
 
 body {
   background-color: $bg;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  font-size: 16px;
 }
 
 %container {
@@ -84,5 +87,24 @@ body {
       height: 40px;
       width: 270px;
     }
+  }
+}
+
+.content {
+  @extend %container;
+  padding: 10px;
+
+  blockquote {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
   }
 }
