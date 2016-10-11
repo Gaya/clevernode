@@ -23,7 +23,7 @@ Specialities
 The subjects I mainly focus on are **JavaScript** development, front-end, **React**, Redux,
 **webpack**, **single page applications**, mobile apps and back-end JavaScript using **Node.js**.
 
-I am available as a React Developer as well as solving the whole build pipeline of your projects.
+I am available as a **React Developer** as well as solving the whole build pipeline of your projects.
 My experience lies in creating solid and stable applications which developers like to keep working
 on and improve.
 
@@ -34,21 +34,21 @@ everything is possible.
 Need help transitioning to modern front-end workflows?
 ------------------------------------------------------
 
-If you're project relies on technologies like grunt, require.js, and other tools which have better
-alternatives, it might be hard to know where to start your transition.
+If you're project relies on technologies like **grunt**, **require.js**, and other tools which have
+better alternatives, it might be hard to know where to start your transition.
 
-I have experience upgrading pipelines of projects to webpack, ES6 using Babel, and minimize the
-amount of plugins and tools a project needs in order to run.
+I have experience upgrading pipelines of projects to **webpack**, **ES6 using Babel**, and minimize
+the amount of plugins and tools a project needs in order to run.
 
 Steps toward a better environment are hard, and having an extra, experienced, eye can help a lot. I
-can help you solve this problem. The solution might be closer than you'd expect.
+can help you **solve this problem**. The solution might be closer than you'd expect.
 
 Find me online
 --------------
 
-[Follow on Twitter](https://twitter.com/GayaNinja)
-[Repositories on GitHub](https://github.com/Gaya)
-[Connect on LinkedIn](http://linkedin.com/in/gayakessler)
+- [Follow on Twitter](https://twitter.com/GayaNinja)
+- [Repositories on GitHub](https://github.com/Gaya)
+- [Connect on LinkedIn](http://linkedin.com/in/gayakessler)
 
 Contact
 -------
