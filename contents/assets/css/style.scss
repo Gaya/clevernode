@@ -5,8 +5,8 @@ $bg: #f2f2f2;
 $dark-bg: #151515;
 
 $screen-sm: 600px;
-$screen-md: 992px;
-$container-width: 920px;
+$screen-md: 760px;
+$container-width: 720px;
 
 body {
   background-color: $bg;
@@ -106,5 +106,19 @@ body {
 
   em {
     font-style: italic;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 24px 0;
+  }
+
+  a {
+    color: #fa6900;
   }
 }

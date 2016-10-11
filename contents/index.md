@@ -18,7 +18,7 @@ technologies. This enabled me to work on a lot of different projects and experie
 different situations.
 
 Specialities
-============
+------------
 
 The subjects I mainly focus on are **JavaScript** development, front-end, **React**, Redux,
 **webpack**, **single page applications**, mobile apps and back-end JavaScript using **Node.js**.
@@ -32,7 +32,7 @@ right tool for the job. From small JavaScript widgets to full blown single page 
 everything is possible.
 
 Need help transitioning to modern front-end workflows?
-======================================================
+------------------------------------------------------
 
 If you're project relies on technologies like grunt, require.js, and other tools which have better
 alternatives, it might be hard to know where to start your transition.
@@ -44,14 +44,14 @@ Steps toward a better environment are hard, and having an extra, experienced, ey
 can help you solve this problem. The solution might be closer than you'd expect.
 
 Find me online
-==============
+--------------
 
 [Follow on Twitter](https://twitter.com/GayaNinja)
 [Repositories on GitHub](https://github.com/Gaya)
 [Connect on LinkedIn](http://linkedin.com/in/gayakessler)
 
 Contact
-=======
+-------
 
 Gaya Kessler - CleverNode
 Deurne / Eindhoven, The Netherlands
