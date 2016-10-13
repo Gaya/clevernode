@@ -2,7 +2,7 @@
 title: CleverNode
 date: 2016-10-10
 author: Gaya Kessler (gaya@theclevernode.com)
-template: index.jade
+template: index.html
 ----
 
 >(Full stack) **Web Development**. Specialized in **JavaScript**, Sass & Modern Front-end

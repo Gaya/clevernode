@@ -4,6 +4,7 @@
   },
   "plugins": [
     "wintersmith-livereload",
-    "wintersmith-sassify"
+    "wintersmith-sassify",
+    "wintersmith-nunjucks"
   ]
 }

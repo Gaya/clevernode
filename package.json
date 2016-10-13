@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "wintersmith": "^2.3.3",
+    "wintersmith-nunjucks": "^1.1.0",
     "wintersmith-sassify": "^1.0.0"
   },
   "devDependencies": {
