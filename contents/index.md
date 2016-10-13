@@ -1,8 +1,9 @@
 ---
-title: CleverNode
+title: CleverNode - JavaScript and modern Frontend Development by Gaya Kessler
+description: Web Developer from the Netherlands. Specialized in JavaScript, Sass & Modern Front-end Development.
 date: 2016-10-10
 author: Gaya Kessler (gaya@theclevernode.com)
-template: index.html
+template: page-en.html
 ----
 
 >(Full stack) **Web Development**. Specialized in **JavaScript**, Sass & Modern Front-end
