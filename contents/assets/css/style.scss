@@ -107,6 +107,15 @@ body {
   }
 }
 
+.avatar {
+  float: right;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 24px 0 24px 24px;
+}
+
 .content {
   @extend %container;
   padding: 10px;
