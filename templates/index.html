@@ -19,6 +19,11 @@
         <meta name="theme-color" content="#ffffff">
 
         {% block head %}{% endblock %}
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="website"/>
+        <meta property="article:publisher" content="https://www.facebook.com/gayaninja"/>
+        <meta property="fb:admins" content="100000090654216"/>
+        <meta property="og:image" content="{{ env.locals.url }}/images/og_clevernode_poster.jpg"/>
 
         {{ livereloadScript | safe }}
     </head>
