@@ -35,10 +35,13 @@
         </header>
 
         <section class="menu">
-            <a href="#contact">Contact</a>
+            <a class="menu__item" href="#content">Skip to content</a>
+            <a class="menu__item" href="#contact">Contact</a>
         </section>
 
-        {% block content %}{% endblock %}
+        <section id="content" class="content">
+            {% block content %}{% endblock %}
+        </section>
 
         <footer class="footer">
             Keep it simple &nbsp;&mdash;&nbsp; CleverNode &nbsp;&mdash;&nbsp; Gaya Kessler
