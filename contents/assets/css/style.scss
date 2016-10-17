@@ -87,15 +87,11 @@ a {
   }
 
   &__box, &__name {
-    @include vendor-prefix(mask-size, contain);
-    @include vendor-prefix(mask-repeat, no-repeat);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     margin: 7px;
-
-    background: linear-gradient(180deg, #f2f2f2, #f2f2f2, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900, #f2f2f2, #f2f2f2);
-    background-size: 1800% 1800%;
-
-    @include vendor-prefix(animation, LogoFade 30s ease infinite);
 
     @media (min-width: $screen-sm) {
       margin: 10px;
@@ -103,7 +99,7 @@ a {
   }
 
   &__box {
-    @include vendor-prefix(mask-image, url('../images/clevernode-box.svg'));
+    background-image: url('../images/clevernode-box.svg');
     height: 53px;
     width: 55px;
 
@@ -114,7 +110,7 @@ a {
   }
 
   &__name {
-    @include vendor-prefix(mask-image, url('../images/clevernode-logo.svg'));
+    background-image: url('../images/clevernode-logo.svg');
     height: 33px;
     width: 212px;
 
@@ -234,39 +230,44 @@ a {
     color: $bg;
 
     &:before {
-      background: $bg;
+      opacity: 0;
+      width: 0;
+      margin-right: 0;
     }
   }
 
   &:before {
     content: "";
-    background: $dark-bg;
     width: 20px;
     height: 20px;
     display: inline-block;
     margin-bottom: -4px;
-    @include vendor-prefix(mask-size, contain);
-    @include vendor-prefix(mask-repeat, no-repeat);
-    @include vendor-prefix(mask-position, center center);
+
+    background: {
+      size: contain;
+      repeat: no-repeat;
+      position: center center;
+    }
+
     margin-right: 4px;
-    transition: background-color 0.15s;
+    transition: opacity 0.15s, width 0.15s, margin-right 0.15s;
   }
 
   &--twitter {
     &:before {
-      @include vendor-prefix(mask-image, url(../images/twitter-logo.svg));
+      background-image: url('../images/twitter-logo.svg');
     }
   }
 
   &--github {
     &:before {
-      @include vendor-prefix(mask-image, url(../images/github-logo.svg));
+      background-image: url('../images/github-logo.svg');
     }
   }
 
   &--linkedin {
     &:before {
-      @include vendor-prefix(mask-image, url(../images/linkedin-logo.svg));
+      background-image: url('../images/linkedin-logo.svg');
     }
   }
 }
