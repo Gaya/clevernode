@@ -141,6 +141,14 @@ body {
   @extend %container;
   padding: 10px;
 
+  @media (min-width: $screen-sm) {
+    padding: 20px;
+  }
+
+  @media (min-width: $screen-md) {
+    padding: 30px;
+  }
+
   blockquote {
     margin: 10px 0;
     font-size: 20px;
