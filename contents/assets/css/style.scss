@@ -214,5 +214,41 @@ a {
     border: 1px solid $active;
     background-color: $active;
     color: $bg;
+
+    &:before {
+      background: $bg;
+    }
+  }
+
+  &:before {
+    content: "";
+    background: $dark-bg;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+    @include vendor-prefix(mask-size, contain);
+    @include vendor-prefix(mask-repeat, no-repeat);
+    @include vendor-prefix(mask-position, center center);
+    margin-right: 4px;
+    transition: background-color 0.15s;
+  }
+
+  &--twitter {
+    &:before {
+      @include vendor-prefix(mask-image, url(../images/twitter-logo.svg));
+    }
+  }
+
+  &--github {
+    &:before {
+      @include vendor-prefix(mask-image, url(../images/github-logo.svg));
+    }
+  }
+
+  &--linkedin {
+    &:before {
+      @include vendor-prefix(mask-image, url(../images/linkedin-logo.svg));
+    }
   }
 }
