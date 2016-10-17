@@ -28,7 +28,7 @@
             <section class="header__container">
                 <section class="header-logo header__logo">
                     <div class="header-logo__box"></div>
-                    <div class="header-logo__name"></div>
+                    <div class="header-logo__name">CleverNode</div>
                 </section>
                 <h1 class="header__slogan">{{ page.metadata.slogan }}</h1>
             </section>
@@ -36,6 +36,8 @@
 
         <section class="menu">
             <a class="menu__item" href="#content">Skip to content</a>
+            <a class="menu__item" href="{{ env.locals.url }}/">English</a>
+            <a class="menu__item" href="{{ env.locals.url }}/nl">Nederlands</a>
             <a class="menu__item" href="#contact">Contact</a>
         </section>
 

@@ -117,6 +117,8 @@ a {
     background-image: url('../images/clevernode-logo.svg');
     height: 33px;
     width: 212px;
+    text-indent: -100em;
+    overflow: hidden;
 
     @media (min-width: $screen-sm) {
       height: 40px;
@@ -126,18 +128,31 @@ a {
 }
 
 .menu {
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   max-width: $container-width;
   margin: 0 auto;
   display: flex;
+  justify-content: space-around;
+
+  @media (min-width: $screen-sm) {
+    justify-content: center;
+    padding: 20px 0 0;
+  }
+
+  @media (min-width: $screen-md) {
+    padding: 30px 0 0;
+  }
 
   &__item {
     background: $dark-bg;
     margin: 0 10px;
-    padding: 3px 8px;
+    padding: 3px 10px;
     color: $bg;
     text-decoration: none;
     transition: background-color 0.15s;
+    text-align: center;
+    display: flex;
+    align-items: center;
 
     &:first-child {
       position: absolute;
