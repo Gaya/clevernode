@@ -1,5 +1,6 @@
 @import 'reset';
 @import 'animation';
+@import 'prefix';
 
 $bg: #f2f2f2;
 $dark-bg: #151515;
@@ -78,20 +79,15 @@ body {
   }
 
   &__box, &__name {
-    -webkit-mask-size: contain;
-    mask-size: contain;
-
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
+    @include vendor-prefix(mask-size, contain);
+    @include vendor-prefix(mask-repeat, no-repeat);
 
     margin: 7px;
 
     background: linear-gradient(180deg, #f2f2f2, #f2f2f2, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900, #f2f2f2, #f2f2f2);
     background-size: 1800% 1800%;
 
-    -webkit-animation: LogoFade 30s ease infinite;
-    -moz-animation: LogoFade 30s ease infinite;
-    animation: LogoFade 30s ease infinite;
+    @include vendor-prefix(animation, LogoFade 30s ease infinite);
 
     @media (min-width: $screen-sm) {
       margin: 10px;
@@ -99,8 +95,7 @@ body {
   }
 
   &__box {
-    -webkit-mask-image: url('../images/clevernode-box.svg');
-    mask-image: url('../images/clevernode-box.svg');
+    @include vendor-prefix(mask-image, url('../images/clevernode-box.svg'));
     height: 53px;
     width: 55px;
 
@@ -111,8 +106,7 @@ body {
   }
 
   &__name {
-    -webkit-mask-image: url('../images/clevernode-logo.svg');
-    mask-image: url('../images/clevernode-logo.svg');
+    @include vendor-prefix(mask-image, url('../images/clevernode-logo.svg'));
     height: 33px;
     width: 212px;
 
@@ -167,6 +161,8 @@ body {
     font-size: 20px;
     line-height: 1.5em;
     font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   p {
@@ -179,6 +175,10 @@ body {
     &:hover, &:focus {
       color: $dark-bg;
     }
+  }
+
+  address {
+    text-align: center;
   }
 
   ul {
