@@ -2,6 +2,17 @@ var fs = require('fs');
 var koa = require('koa');
 var app = koa();
 
+var domain = 'www.theclevernode.com';
+
+app.use(function *redirect301(next) {
+  if (this.req.headers.host !== domain) {
+    this.status = 301;
+    this.redirect(domain);
+  }
+
+  yield next;
+});
+
 app.use(require('koa-static')('build', {
   gzip: true,
 }));
