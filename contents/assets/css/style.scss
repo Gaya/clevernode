@@ -25,6 +25,7 @@ body {
     image: url('../images/header-bg-pattern.png');
     size: 73px 42px;
     attachment: fixed;
+    position: center center;
   }
 }
 
@@ -42,21 +43,29 @@ a {
 }
 
 .header {
-  @extend %bg-pattern;
+  position: relative;
+  overflow: hidden;
 
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  width: 250%;
-  margin-left: -75%;
+  &:before {
+    @extend %bg-pattern;
+    position: absolute;
+    content: "";
+    height: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 250%;
+    margin-left: -75%;
+    z-index: -1;
 
-  @media (min-width: $screen-sm) {
-    width: 200%;
-    margin-left: -50%;
-  }
+    @media (min-width: $screen-sm) {
+      width: 200%;
+      margin-left: -50%;
+    }
 
-  @media (min-width: $screen-md) {
-    width: 150%;
-    margin-left: -25%;
+    @media (min-width: $screen-md) {
+      width: 150%;
+      margin-left: -25%;
+    }
   }
 
   &__container {

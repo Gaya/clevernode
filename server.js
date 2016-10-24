@@ -2,7 +2,7 @@ var fs = require('fs');
 var koa = require('koa');
 var app = koa();
 
-var domain = 'www.theclevernode.com';
+var domain = process.env.PORT ? 'www.theclevernode.com' : 'localhost:3000';
 
 app.use(function *redirect301(next) {
   if (this.req.headers.host !== domain) {
