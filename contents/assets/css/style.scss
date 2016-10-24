@@ -33,11 +33,17 @@ a {
 }
 
 .header {
-  background: $dark-bg;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   width: 250%;
   margin-left: -75%;
+
+  background: {
+    color: $dark-bg;
+    image: url('../images/header-bg-pattern.png');
+    size: 73px 42px;
+    attachment: fixed;
+  }
 
   @media (min-width: $screen-sm) {
     width: 200%;
@@ -231,10 +237,6 @@ a {
     margin: 24px 0;
   }
 
-  address {
-    text-align: center;
-  }
-
   ul {
     margin: 24px 0;
     display: flex;
@@ -250,6 +252,30 @@ a {
         flex-basis: 30%;
       }
     }
+  }
+}
+
+.address {
+  text-align: center;
+  padding: 10px;
+
+  @media (min-width: $screen-sm) {
+    padding: 20px;
+  }
+
+  @media (min-width: $screen-md) {
+    padding: 30px;
+  }
+
+  h1, h2 {
+    line-height: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 }
 
