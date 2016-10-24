@@ -9,14 +9,18 @@
     "cleanscss": "find ./build -name *.scss -print0 | xargs -0 rm",
     "cssnano": "node node_modules/cssnano-cli/cmd.js build/assets/css/style.css build/assets/css/style.css",
     "imagemin": "node node_modules/imagemin-cli/cli.js build/assets/images/* --out-dir=build/assets/images/",
+    "install": "npm run build",
     "optimize": "npm run cleanscss && npm run cssnano && npm run imagemin",
-    "preview": "node node_modules/wintersmith/bin/wintersmith preview"
+    "preview": "node node_modules/wintersmith/bin/wintersmith preview",
+    "start": "node server.js"
   },
   "author": "Gaya Kessler",
   "license": "ISC",
   "dependencies": {
     "cssnano-cli": "^1.0.5",
     "imagemin-cli": "^3.0.0",
+    "koa": "^1.2.4",
+    "koa-static": "^2.0.0",
     "wintersmith": "^2.3.3",
     "wintersmith-nunjucks": "^1.1.0",
     "wintersmith-sassify": "^1.0.0"
