@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node node_modules/wintersmith/bin/wintersmith build",
-    "preview": "node node_modules/wintersmith/bin/wintersmith preview",
-    "imagemin": "node node_modules/imagemin-cli/cli.js build/assets/images/* --out-dir=build/assets/images/"
+    "cssnano": "node node_modules/cssnano-cli/cmd.js build/assets/css/style.css build/assets/css/style.css",
+    "imagemin": "node node_modules/imagemin-cli/cli.js build/assets/images/* --out-dir=build/assets/images/",
+    "preview": "node node_modules/wintersmith/bin/wintersmith preview"
   },
   "author": "Gaya Kessler",
   "license": "ISC",
   "dependencies": {
+    "cssnano-cli": "^1.0.5",
     "imagemin-cli": "^3.0.0",
     "wintersmith": "^2.3.3",
     "wintersmith-nunjucks": "^1.1.0",
