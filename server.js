@@ -7,7 +7,7 @@ var domain = 'www.theclevernode.com';
 app.use(function *redirect301(next) {
   if (this.req.headers.host !== domain) {
     this.status = 301;
-    this.redirect(domain);
+    this.redirect(`http://${domain}`);
   }
 
   yield next;
