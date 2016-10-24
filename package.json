@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node node_modules/wintersmith/bin/wintersmith build",
-    "preview": "node node_modules/wintersmith/bin/wintersmith preview"
+    "preview": "node node_modules/wintersmith/bin/wintersmith preview",
+    "imagemin": "node node_modules/imagemin-cli/cli.js build/assets/images/* --out-dir=build/assets/images/"
   },
   "author": "Gaya Kessler",
   "license": "ISC",
   "dependencies": {
+    "imagemin-cli": "^3.0.0",
     "wintersmith": "^2.3.3",
     "wintersmith-nunjucks": "^1.1.0",
     "wintersmith-sassify": "^1.0.0"
