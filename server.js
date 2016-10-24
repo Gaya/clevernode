@@ -29,4 +29,4 @@ app.use(function *pageNotFound(next) {
   }
 });
 
-app.listen(3000);
+app.listen(env.PORT || 3000);
