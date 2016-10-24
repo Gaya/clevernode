@@ -20,12 +20,11 @@
     If you'd like to <a href="{{ env.locals.url }}/">read more about CleverNode</a>, please
     <a href="{{ env.locals.url }}/">go to the homepage</a>.
 </p>
+{% endblock %}
 
-<h2 id="contact">Contact</h2>
-<address>
-    Gaya Kessler - CleverNode<br />
-    Deurne / Eindhoven, The Netherlands<br />
-    Email me at <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a><br />
-    or call: (+31) 6 4883 5450
-</address>
+{% block address %}
+Gaya Kessler - CleverNode<br />
+Deurne / Eindhoven, The Netherlands<br />
+Email me at <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a><br />
+or call: (+31) 6 4883 5450
 {% endblock %}

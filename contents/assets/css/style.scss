@@ -19,6 +19,15 @@ body {
   overflow-x: hidden;
 }
 
+%bg-pattern {
+  background: {
+    color: $dark-bg;
+    image: url('../images/header-bg-pattern.png');
+    size: 73px 42px;
+    attachment: fixed;
+  }
+}
+
 %container {
   max-width: $container-width;
   margin: 0 auto;
@@ -33,17 +42,12 @@ a {
 }
 
 .header {
+  @extend %bg-pattern;
+
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   width: 250%;
   margin-left: -75%;
-
-  background: {
-    color: $dark-bg;
-    image: url('../images/header-bg-pattern.png');
-    size: 73px 42px;
-    attachment: fixed;
-  }
 
   @media (min-width: $screen-sm) {
     width: 200%;
@@ -238,7 +242,7 @@ a {
   }
 
   ul {
-    margin: 24px 0;
+    margin: 24px 0 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -256,6 +260,8 @@ a {
 }
 
 .address {
+  @extend %bg-pattern;
+  color: $bg;
   text-align: center;
   padding: 10px;
 
@@ -276,6 +282,12 @@ a {
 
   h2 {
     font-size: 20px;
+  }
+
+  a {
+    &:hover, &:focus {
+      color: $bg;
+    }
   }
 }
 
@@ -339,6 +351,7 @@ a {
 }
 
 .footer {
+  @extend %bg-pattern;
   color: lighten($dark-bg, 50);
   text-align: center;
   padding: 0 10px 10px 10px;
