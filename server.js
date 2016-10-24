@@ -1,6 +1,6 @@
+var fs = require('fs');
 var koa = require('koa');
 var app = koa();
-var fs = require('fs');
 
 app.use(require('koa-static')('build', {
   gzip: true,
