@@ -15,7 +15,7 @@ body {
   color: $dark-bg;
   font-family: 'Lato', sans-serif;
   line-height: 1.5em;
-  font-size: 16px;
+  font-size: 18px;
   overflow-x: hidden;
 }
 
@@ -84,7 +84,7 @@ a {
       padding-bottom: 30px;
       font-size: 1.4em;
       line-height: 1.4em;
-      width: 240px;
+      width: 258px;
     }
 
     @media (min-width: $screen-md) {
@@ -146,7 +146,7 @@ a {
   }
 }
 
-.menu {
+.menu, .contact-now {
   padding: 10px 0 0 0;
   max-width: $container-width;
   margin: 0 auto;
@@ -162,7 +162,7 @@ a {
     padding: 30px 0 0;
   }
 
-  &__item {
+  &__item, &__link {
     background: $dark-bg;
     margin: 0 10px;
     padding: 3px 10px;
@@ -173,6 +173,13 @@ a {
     display: flex;
     align-items: center;
 
+    &:hover, &:focus {
+      color: $bg;
+      background-color: $active;
+    }
+  }
+
+  &__item {
     &:first-child {
       position: absolute;
       top: -1000px;
@@ -187,11 +194,15 @@ a {
         width: auto;
       }
     }
+  }
+}
 
-    &:hover, &:focus {
-      color: $bg;
-      background-color: $active;
-    }
+.contact-now {
+  padding: 0;
+  margin: 48px 0;
+
+  &__link {
+    padding: 12px 24px;
   }
 }
 
@@ -279,7 +290,7 @@ a {
   }
 
   @media (min-width: $screen-md) {
-    padding: 30px;
+    padding: 120px 30px 30px 30px;
   }
 
   h1, h2 {
@@ -365,11 +376,23 @@ a {
   text-align: center;
   padding: 0 10px 10px 10px;
 
+  .header-logo__box {
+    margin: 10px auto;
+  }
+
   @media (min-width: $screen-sm) {
     padding: 0 20px 20px 20px;
+
+    .header-logo__box {
+      margin: 20px auto;
+    }
   }
 
   @media (min-width: $screen-md) {
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 240px 30px;
+
+    .header-logo__box {
+      margin: 60px auto;
+    }
   }
 }
