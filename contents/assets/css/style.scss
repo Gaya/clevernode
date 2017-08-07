@@ -14,7 +14,7 @@ body {
   background-color: $bg;
   color: $dark-bg;
   font-family: 'Lato', sans-serif;
-  line-height: 1.5em;
+  line-height: 1.7em;
   font-size: 18px;
   overflow-x: hidden;
 }
@@ -203,6 +203,7 @@ a {
 
   &__link {
     padding: 12px 24px;
+    text-transform: uppercase;
   }
 }
 
