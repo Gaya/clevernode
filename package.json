@@ -13,7 +13,7 @@
     "cssnano": "node node_modules/cssnano-cli/cmd.js build/assets/css/style.css build/assets/css/style.css",
     "imagemin": "imagemin build/assets/images/* --out-dir=build/assets/images/",
     "install": "npm run build",
-    "optimize": "npm run cleanscss && npm run cssnano && npm run imagemin",
+    "optimize": "npm run cssnano && npm run imagemin",
     "preview": "node node_modules/wintersmith/bin/wintersmith preview",
     "start": "node server.js"
   },
