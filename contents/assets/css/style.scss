@@ -284,6 +284,7 @@ a {
 .experience {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin: 30px 0;
 
   @media (min-width: $screen-lg) {
@@ -302,14 +303,22 @@ a {
       width: 33%;
     }
 
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     img {
       width: 80%;
       height: 60px;
     }
 
     p {
-      margin: 6px 0;
-      font-size: 0.9em;
+      margin: 12px 0;
+      font-size: 0.8em;
+      text-align: center;
+      opacity: 0.7;
     }
   }
 }

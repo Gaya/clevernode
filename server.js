@@ -7,7 +7,7 @@ var domain = process.env.PORT ? 'www.theclevernode.com' : 'localhost:3000';
 app.use(function *redirect301(next) {
   if (this.req.headers.host !== domain) {
     this.status = 301;
-    this.redirect(`http://${domain}`);
+    this.redirect(`https://${domain}`);
   }
 
   yield next;
