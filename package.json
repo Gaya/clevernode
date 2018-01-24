@@ -24,11 +24,10 @@
     "imagemin-cli": "^3.0.0",
     "koa": "^1.2.4",
     "koa-static": "^2.0.0",
-    "wintersmith": "^2.3.3",
+    "wintersmith": "^2.4.1",
+    "wintersmith-livereload": "^0.2.2",
     "wintersmith-nunjucks": "^1.1.0",
-    "wintersmith-sassy": "^1.2.0",
-    "wintersmith-livereload": "^0.2.2"
+    "wintersmith-sassy": "^1.2.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
