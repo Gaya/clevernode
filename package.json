@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "~6.5.0",
-    "npm": "~3.10.3"
+    "node": "~11.10.0",
+    "npm": "~6.8.0"
   },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node node_modules/wintersmith/bin/wintersmith build && npm run optimize",
+    "build": "wintersmith build && npm run optimize",
     "cleanscss": "find ./build -name *.scss -print0 | xargs -0 rm",
-    "cssnano": "node node_modules/cssnano-cli/cmd.js build/assets/css/style.css build/assets/css/style.css",
     "imagemin": "imagemin build/assets/images/* --out-dir=build/assets/images/",
     "install": "npm run build",
-    "optimize": "npm run cssnano && npm run imagemin",
+    "optimize": "npm run imagemin",
     "preview": "node node_modules/wintersmith/bin/wintersmith preview",
     "start": "node server.js"
   },
@@ -22,12 +21,11 @@
   "license": "ISC",
   "dependencies": {
     "compression": "^1.7.4",
-    "cssnano-cli": "^1.0.5",
     "express": "^4.16.4",
     "imagemin-cli": "^4.0.1",
-    "wintersmith": "^2.4.1",
-    "wintersmith-livereload": "^0.2.2",
-    "wintersmith-nunjucks": "^1.1.0",
+    "wintersmith": "^2.5.0",
+    "wintersmith-livereload": "^1.0.1",
+    "wintersmith-nunjucks": "^2.0.0",
     "wintersmith-sassy": "^1.2.0"
   },
   "devDependencies": {}
