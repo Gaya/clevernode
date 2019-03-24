@@ -1,43 +1,26 @@
-var fs = require('fs');
-var koa = require('koa');
-var app = koa();
+const fs = require('fs');
+const express = require('express');
+const compression = require('compression');
 
-var domain = process.env.PORT ? 'www.theclevernode.com' : 'localhost:3000';
+const domain = process.env.PORT ? 'theclevernode.com' : 'localhost:3000';
 
-app.use(function *redirect301(next) {
-  if (this.req.headers.host !== domain) {
-    this.status = 301;
-    this.redirect(`https://${domain}`);
+const app = express();
+app.use(compression());
+
+app.use(function redirect301(req, res, next) {
+  if (req.get('Host') !== domain) {
+    return res.redirect(301, `https://${domain}`);
   }
 
-  yield next;
+  return next();
 });
 
-app.use(require('koa-static')('build', {
-  gzip: true,
-}));
+app.use(express.static('build'));
 
-app.use(function *pageNotFound(next) {
-  yield next;
+const notFound = fs.readFileSync('build/404.html');
 
-  if (this.status != 404) return;
-
-  this.status = 404;
-
-  switch (this.accepts('html', 'json')) {
-    case 'html':
-      this.type = 'html';
-      this.body = fs.createReadStream('build/404.html');
-      break;
-    case 'json':
-      this.body = {
-        message: 'Page Not Found',
-      };
-      break;
-    default:
-      this.type = 'text';
-      this.body = 'Page Not Found';
-  }
+app.use(function (req, res) {
+  res.status(404).send(notFound.toString());
 });
 
 app.listen(process.env.PORT || 3000);
