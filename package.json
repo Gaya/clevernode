@@ -14,20 +14,16 @@
     "imagemin": "imagemin build/assets/images/* --out-dir=build/assets/images/",
     "install": "npm run build",
     "optimize": "npm run imagemin",
-    "preview": "node node_modules/wintersmith/bin/wintersmith preview",
-    "start": "node server.js"
+    "preview": "node node_modules/wintersmith/bin/wintersmith preview"
   },
   "author": "Gaya Kessler",
   "license": "ISC",
   "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.16.4",
     "imagemin-cli": "^4.0.1",
     "wintersmith": "^2.5.0",
     "wintersmith-livereload": "^1.0.1",
     "wintersmith-nunjucks": "^2.0.0",
-    "wintersmith-sassify": "^1.0.2",
-    "wintersmith-sassy": "^1.2.0"
+    "wintersmith-sassify": "^1.0.2"
   },
   "devDependencies": {}
 }
