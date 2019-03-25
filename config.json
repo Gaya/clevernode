@@ -4,7 +4,12 @@
   },
   "plugins": [
     "wintersmith-livereload",
-    "wintersmith-sassy",
-    "wintersmith-nunjucks"
-  ]
+    "wintersmith-nunjucks",
+    "wintersmith-sassify"
+  ],
+  "sassify": {
+    "outputStyle": "compressed",
+    "sourceComments": false,
+    "sourceMap": false
+  }
 }

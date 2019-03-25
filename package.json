@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wintersmith build && npm run optimize",
+    "build": "rm -rf build/* && wintersmith build && npm run optimize && npm run cleanscss",
     "cleanscss": "find ./build -name *.scss -print0 | xargs -0 rm",
     "imagemin": "imagemin build/assets/images/* --out-dir=build/assets/images/",
     "install": "npm run build",
@@ -26,6 +26,7 @@
     "wintersmith": "^2.5.0",
     "wintersmith-livereload": "^1.0.1",
     "wintersmith-nunjucks": "^2.0.0",
+    "wintersmith-sassify": "^1.0.2",
     "wintersmith-sassy": "^1.2.0"
   },
   "devDependencies": {}
