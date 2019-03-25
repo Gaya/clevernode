@@ -6,8 +6,6 @@ $max-container: 960px;
 $ab-light: #f5f5ff;
 $ab-blue: #268ec7;
 $ab-blue-darker: #268bc3;
-$ab-orange: #e1763e;
-$ab-purple: #ad28e7;
 
 body {
   background: #fff;
@@ -182,7 +180,23 @@ h2 {
 .download {
   display: flex;
   justify-content: center;
-  padding: 0 2em;
+  padding: 1em 2em;
+}
+
+footer {
+  background: #323232;
+  color: #bfbfbf;
+  text-align: center;
+  padding: 2em 3%;
+  font-style: italic;
+
+  a {
+    color: #fff;
+  }
+
+  p {
+    margin: 1em 0;
+  }
 }
 
 @media only screen and (min-width: $screen-md) {
