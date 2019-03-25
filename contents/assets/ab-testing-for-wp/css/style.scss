@@ -199,6 +199,20 @@ footer {
   }
 }
 
+.faq {
+  margin: 3em 0;
+
+  .container {
+    margin: 0 auto;
+    max-width: $max-container;
+    padding: 0 3%;
+  }
+
+  p {
+    margin: 1em 0;
+  }
+}
+
 @media only screen and (min-width: $screen-md) {
   .header .monitor {
     position: absolute;
