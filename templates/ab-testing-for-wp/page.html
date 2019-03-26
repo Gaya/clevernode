@@ -28,11 +28,11 @@
     <meta name="twitter:url" content="{{ env.locals.url }}/ab-testing-for-wordpress"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.metadata.description }}"/>
-    <meta name="twitter:image" content="https://theclevernode.com/assets/ab-testing-for-wp/images/og_abtestingforwp_poster.jpg">
+    <meta name="twitter:image" content="{{ env.locals.url }}/assets/ab-testing-for-wp/images/og_abtestingforwp_poster.jpg">
 
     <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://theclevernode.com/assets/ab-testing-for-wp/images/og_abtestingforwp_poster.jpg"/>
+    <meta property="og:image" content="{{ env.locals.url }}/assets/ab-testing-for-wp/images/og_abtestingforwp_poster.jpg"/>
 
     {{ livereloadScript | safe }}
 

@@ -1,6 +1,7 @@
 {
   "locals": {
-    "title": "CleverNode"
+    "title": "CleverNode",
+    "url": "https://theclevernode.com"
   },
   "plugins": [
     "wintersmith-livereload",
