@@ -1,8 +1,8 @@
 ---
 title: "CleverNode - Freelance JavaScript / Frontend Developer - Gaya Kessler"
-description: Web Developer from the Netherlands. Specialises in JavaScript, React, Redux, Sass, & Modern Front-end Development.
-date: 2017-08-07
+description: Web Developer from the Netherlands. Specialises in JavaScript, React, Redux, and Modern Front-end Development.
+date: 2019-04-35
 author: Gaya Kessler (gaya@theclevernode.com)
-slogan: JavaScript and modern Frontend Development
+slogan: JavaScript and Modern Frontend Development
 template: page-en.html
 ----
