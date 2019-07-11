@@ -114,7 +114,7 @@
 			//Set initial width
 			this.width = this.list.children().eq(0).outerWidth(true);
 
-			this.list.width(this.width * (obj.group.length + 1)).css('left', Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5)));
+			this.list.width(this.width * (obj.group.length + 1)).css('left', Math.floor($(window).width() * 0.5 - (obj._index * this.width + this.width * 0.5)));
 		},
 
 		beforeLoad: function (opts, obj) {
@@ -139,14 +139,14 @@
 			}
 
 			//Set active element
-			this.list.children().removeClass('active').eq(obj.index).addClass('active');
+			this.list.children().removeClass('active').eq(obj._index).addClass('active');
 		},
 
 		//Center list
 		onUpdate: function (opts, obj) {
 			if (this.list) {
 				this.list.stop(true).animate({
-					'left': Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5))
+					'left': Math.floor($(window).width() * 0.5 - (obj._index * this.width + this.width * 0.5))
 				}, 150);
 			}
 		},

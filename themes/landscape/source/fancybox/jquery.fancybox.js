@@ -356,7 +356,7 @@
 
 			F.group = group;
 
-			return F._start(F.opts.index);
+			return F._start(F.opts._index);
 		},
 
 		// Cancel image loading or abort ajax request
@@ -594,7 +594,7 @@
 
 				// Help browser to restore document dimensions
 				if (isTouch) {
-					F.wrap.removeAttr('style').addClass('fancybox-tmp');
+					F.wrap.removeAttr('style.scss').addClass('fancybox-tmp');
 
 					F.trigger('onUpdate');
 				}
@@ -1039,7 +1039,7 @@
 				i;
 
 			for (i = 1; i <= cnt; i += 1) {
-				item = group[ (current.index + i ) % len ];
+				item = group[ (current._index + i ) % len ];
 
 				if (item.type === 'image' && item.href) {
 					new Image().src = item.href;
@@ -1456,11 +1456,11 @@
 
 			// Create navigation arrows
 			if (current.arrows && F.group.length > 1) {
-				if (current.loop || current.index > 0) {
+				if (current.loop || current._index > 0) {
 					$(current.tpl.prev).appendTo(F.outer).bind('click.fb', F.prev);
 				}
 
-				if (current.loop || current.index < F.group.length - 1) {
+				if (current.loop || current._index < F.group.length - 1) {
 					$(current.tpl.next).appendTo(F.outer).bind('click.fb', F.next);
 				}
 			}
@@ -1468,7 +1468,7 @@
 			F.trigger('afterShow');
 
 			// Stop the slideshow if this is the last item
-			if (!current.loop && current.index === current.group.length - 1) {
+			if (!current.loop && current._index === current.group.length - 1) {
 
 				F.play( false );
 
@@ -1941,7 +1941,7 @@
 					if (relVal && relVal !== '' && relVal !== 'nofollow') {
 						what = selector.length ? $(selector) : that;
 						what = what.filter('[' + relType + '="' + relVal + '"]');
-						idx  = what.index(this);
+						idx  = what._index(this);
 					}
 
 					options.index = idx;

@@ -1,11 +1,16 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="format-detection" content="telephone=no">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
-<link href="<%= url_for(theme.css) %>/style.css?v=<%= theme.version %>" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="noodp,noydir">
+<%
+var title = page.title;
+%>
+<title><% if (title) { %> <%= title %> - <% } %><%= config.title %></title>
+<% if (page.description) { %>
+  <meta name="description" content="<%= page.description %>">
+<% } %>
 
 <% if (page.keywords) { %>
   <meta name="keywords" content="<%= page.keywords %>">
@@ -13,13 +18,14 @@
   <meta name="keywords" content="<%= theme.keywords %>">
 <% } %>
 
+<link rel="mask-icon" href="/images/clevernode-box.svg" color="#151515">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+<meta name="theme-color" content="#ffffff">
 
-<% if (theme.rss === '' && config.feed && config.feed.path) { %>
-  <% theme.rss = config.feed.path %>
-<% } %>
-<% if (theme.rss) { %>
-  <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
-<% } %>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="/images/og_clevernode_poster.jpg"/>
 
 <% if (theme.favicon) { %>
   <link rel="shortcut icon" type="image/x-icon" href="<%= url_for(theme.favicon) %>">
@@ -28,26 +34,4 @@
 <% if (theme.canonical) { %>
   <link rel="canonical" href="<%= config.url %>/<%= page.canonical_path.replace('index.html', '') %>"/>
 <% } %>
-<!-- <%- css('css/style.css') %> -->
-<%
-var title = page.title;
-
-if (is_archive()){
-  title = __('menu.archives');
-
-  if (is_month()){
-    title += ': ' + page.year + '/' + page.month;
-  } else if (is_year()){
-    title += ': ' + page.year;
-  }
-} else if (is_category()){
-  title = __('menu.category') + ': ' + page.category;
-} else if (is_tag()){
-  title = __('menu.tags') + ': ' + page.tag;
-} else if (page.path === 'tags/index.html') {
-  title = __('menu.tags')
-} else if (page.path === 'categories/index.html') {
-  title = __('menu.categories')
-}
-%>
-<title><% if (title) { %> <%= title %> | <% } %><%= config.title %></title>
+<%- css('css/style.css') %>
