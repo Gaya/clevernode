@@ -5,7 +5,13 @@ date: 2019-07-11 12:42:58
 language: nl
 ---
 
-<img class="avatar" src="/images/avatar.jpg" alt="Gaya Kessler" title="Gaya Kessler" />
+<img 
+    srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x"
+    src="/images/avatar@2x.jpg"
+    alt="Gaya Kessler" 
+    title="Gaya Kessler"
+    class="avatar"
+/>
 
 > (Full stack) **Web Development**. Gespecialiseerd in **JavaScript**, **React**, Node.js en Moderne Front-end tooling. Met een achtergrond in informatica maak ik **uitgebreide applicaties** voor het Internet en mobiele platformen.
 
