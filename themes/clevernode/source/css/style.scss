@@ -333,8 +333,14 @@ a {
   width: 75px;
   text-align: center;
   color: $bg;
+  display: none;
 
   @media (min-width: $screen-sm) {
+    width: 128px;
+    display: block;
+  }
+
+  @media (min-width: $screen-md) {
     width: 256px;
   }
 
