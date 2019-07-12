@@ -179,6 +179,12 @@ a {
     }
   }
 
+  @media (max-width: $screen-sm) {
+    &__item:not(:nth-child(2)):not(:nth-child(3)):not(:last-child) {
+      display: none;
+    }
+  }
+
   &__item {
     &:first-child {
       position: absolute;
@@ -218,6 +224,10 @@ a {
   @media (min-width: $screen-sm) {
     height: 150px;
     width: 150px;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
