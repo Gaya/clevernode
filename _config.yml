@@ -81,3 +81,6 @@ theme: clevernode
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Minification
+neat_enable: true
