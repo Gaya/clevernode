@@ -6,13 +6,11 @@ language: nl
 langSwitch: /react-developer/
 ---
 
-<img 
-    srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x"
-    src="/images/avatar@2x.jpg"
-    alt="Gaya Kessler" 
-    title="Gaya Kessler"
-    class="avatar"
-/>
+<picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
+    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2"> 
+    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg"> 
+    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
+</picture>
 
 > Op zoek naar een **React Developer met ervaring**? Zoek niet verder. Ik gebruik React al sinds 2015, en JavaScript sinds 2007.
 

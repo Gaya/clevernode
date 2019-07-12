@@ -5,13 +5,11 @@ date: 2019-07-11 12:42:58
 language: en
 ---
 
-<img 
-    srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x"
-    src="/images/avatar@2x.jpg"
-    alt="Gaya Kessler" 
-    title="Gaya Kessler"
-    class="avatar"
-/>
+<picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
+    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2"> 
+    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg"> 
+    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
+</picture>
 
 > (Full stack) **Web Developer**. Specialising in **JavaScript**, **React**, Node.js, and modern front-end. With a background in computer science, I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. 
 
@@ -102,7 +100,12 @@ In the past I have worked on projects of various sizes. This helped me in choosi
   </div>
 
   <div class="experience__item">
-    <a href="https://zitkubus.com"><img src="/images/zitkubus-logo.png" alt="Zitkubus.com"></a>
+    <a href="https://zitkubus.com">
+      <picture>
+        <source srcset="/images/zitkubus-logo.webp" type="image/webp"> 
+        <img src="/images/zitkubus-logo.png" alt="Zitkubus.com">
+      </picture>
+    </a>
     <p>3D Cube Designer<br />(collab w/ <a style="display: inline" href="https://merchandise.nl">merchandise.nl</a>)</p>
   </div>
 </section>
@@ -115,7 +118,12 @@ In the past I have worked on projects of various sizes. This helped me in choosi
     <p>Node.js web services<br />mobile / web apps</p>
   </div>
   <div class="experience__item">
-    <a href="https://www.brewpi.com/"><img src="/images/brewpi-logo.png" alt="BrewPi"></a>
+    <a href="https://www.brewpi.com/">
+      <picture>
+        <source srcset="/images/brewpi-logo.webp" type="image/webp"> 
+        <img src="/images/brewpi-logo.png" alt="BrewPi">
+      </picture>
+    </a>
     <p>UI development for a Brewery Controller</p>
   </div>
   <div class="experience__item">

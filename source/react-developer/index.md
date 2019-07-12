@@ -6,13 +6,11 @@ language: en
 langSwitch: /nl/react-developer/
 ---
 
-<img 
-    srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x"
-    src="/images/avatar@2x.jpg"
-    alt="Gaya Kessler" 
-    title="Gaya Kessler"
-    class="avatar"
-/>
+<picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
+    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2"> 
+    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg"> 
+    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
+</picture>
 
 > Are you looking for an **experienced React Developer**? Look no further. I've been doing React since 2015, and JavaScript since 2007.
 
