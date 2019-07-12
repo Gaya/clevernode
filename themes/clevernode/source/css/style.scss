@@ -273,6 +273,7 @@ a {
       flex-basis: 100%;
       flex-shrink: 0;
       margin: 12px 0;
+      list-style: none;
 
       @media (min-width: $screen-md) {
         flex-basis: 32%;
