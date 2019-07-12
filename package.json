@@ -4,7 +4,8 @@
   "description": "CleverNode website",
   "main": "index.js",
   "scripts": {
-    "serve": "hexo server"
+    "serve": "hexo server",
+    "build": "hexo generate --deploy"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,6 @@
 ---
 title: Freelance JavaScript / Frontend Developer - Gaya Kessler
+description: Freelance Web Developer from the Netherlands. Specialises in JavaScript, React, Node.js, Redux, and modern front-end development.
 date: 2019-07-11 12:42:58
 language: en
 ---
@@ -115,7 +116,7 @@ In the past I have worked on projects of various sizes. This helped me in choosi
 
 ## Find me Online
 
-<ul>
+<ul class="find-online">
   <li>
     <a class="find-me find-me--twitter" href="https://twitter.com/GayaKessler">
       Follow on Twitter

@@ -263,7 +263,7 @@ a {
     margin: 24px 0;
   }
 
-  ul {
+  ul.find-online {
     margin: 24px 0;
     display: flex;
     flex-wrap: wrap;
@@ -277,6 +277,13 @@ a {
       @media (min-width: $screen-md) {
         flex-basis: 32%;
       }
+    }
+  }
+
+  ul {
+    li {
+      margin: 12px 0;
+      list-style: disc;
     }
   }
 }

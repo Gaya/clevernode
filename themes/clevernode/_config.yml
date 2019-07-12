@@ -1,6 +1,14 @@
 # Header
 menu:
-  home: /
+  en:
+    home: /
+    lang: /nl/
+    react: /react-developer/
+  nl:
+    home: /nl/
+    lang: /
+    react: /nl/react-developer/
+
 rss: /atom.xml
 
 # Content
