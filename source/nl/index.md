@@ -19,6 +19,10 @@ Even voorstellen: mijn naam is Gaya Kessler, een developer wonende in Deurne, vl
 
 Ik heb een passie voor het creëren van het beste voor het web, ondertussen houd ik de laatste ontwikkelingen in de webtechnologie nauwlettend in de gaten. Dit heeft ervoor gezorgd dat ik mee heb mogen werken aan diverse, mooie en gave, projecten en ervaring heb opgedaan voor wat werkt, en vooral ook wat niet werkt, in verschillende situaties.
 
+<section class="contact-now">
+    <a class="contact-now__link" href="#contact">Neem contact op</a>
+</section>
+
 ## Waar ik goed in ben
 
 Ik richt me vooral op de volgende onderwerpen: **JavaScript**, front-end development, **React**, Redux, **webpack**, **Single Page Applications**, mobile apps (**React Native**) en back-end JavaScript met behulp van **Node.js**.

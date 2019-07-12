@@ -19,6 +19,10 @@ Let me introduce myself, my name is **Gaya Kessler**, a developer living in the 
 
 I am passionate about creating the best for the web, always keeping up with the latest in web technologies. This allowed me to work on a lot of different projects, and thus experience what works and what doesn't in various different situations.
 
+<section class="contact-now">
+  <a class="contact-now__link" href="#contact">Contact me now</a>
+</section>
+
 ## What I am Good at
 
 Subjects I mainly focus on are **JavaScript**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications**, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
