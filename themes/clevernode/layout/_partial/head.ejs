@@ -40,4 +40,3 @@ var title = page.title ? `${page.title} - ${config.title}` : config.title;
 <% if (theme.canonical) { %>
   <link rel="canonical" href="<%= config.url %>/<%= page.canonical_path.replace('index.html', '') %>"/>
 <% } %>
-<%- css('css/style.css') %>
