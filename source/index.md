@@ -3,13 +3,8 @@ title: Freelance JavaScript / Frontend Developer - Gaya Kessler
 description: Freelance Web Developer from the Netherlands. Specialises in JavaScript, React, Node.js, Redux, and modern front-end development.
 date: 2019-07-11 12:42:58
 language: en
+pageHeader: en-index
 ---
-
-<picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
-    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2"> 
-    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg"> 
-    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
-</picture>
 
 > (Full stack) **Web Developer**. Specialising in **JavaScript**, **React**, Node.js, and modern front-end. With a background in computer science, I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. 
 
@@ -24,6 +19,8 @@ I am passionate about creating the best for the web, always keeping up with the 
 ## What I am Good at
 
 Subjects I mainly focus on are **JavaScript**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications**, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
+
+I love to work in agile environments, both on site and with remote teams. 
 
 <section class="experience">
   <div class="experience__item">

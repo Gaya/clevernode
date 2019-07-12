@@ -93,6 +93,120 @@ a {
   }
 }
 
+.header-big {
+  align-items: center;
+  min-height: 95vh;
+  display: flex;
+  color: $bg;
+
+  .header__container {
+    width: 100%;
+    max-width: 1020px;
+  }
+
+  .header-big__slogan {
+    color: $bg;
+    width: auto;
+    text-align: left;
+    font-size: 2em;
+    max-width: 460px;
+    line-height: 1.3em;
+  }
+
+  .header-big__sub-slogan {
+    width: auto;
+    font-size: 1.4em;
+    margin: 2em 0;
+  }
+
+  .header__logo {
+    padding-top: 20px;
+  }
+
+  ul {
+    margin: 2em 0;
+    max-width: 600px;
+
+    li {
+      margin: 0.5em 0;
+      position: relative;
+      padding-left: 30px;
+      font-size: 1.2em;
+
+      strong {
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+      &:before {
+        content: "";
+        background-image: url('../images/clevernode-box-orange.svg');
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 5px;
+      }
+    }
+  }
+}
+
+.header-big__content {
+  padding: 2em;
+}
+
+.header-options {
+  margin: 2em 0;
+
+  a {
+    border: 1px solid $bg;
+    color: $bg;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-right: 6px;
+    border-radius: 6px;
+    font-weight: 600;
+
+    &:hover {
+      color: $active;
+      border-color: $active;
+    }
+  }
+
+  a:nth-child(1) {
+    border-color: $active;
+    background-color: $active;
+
+    &:hover {
+      color: $active;
+      border-color: $active;
+      background-color: transparent;
+    }
+  }
+}
+
+.header-transparent {
+  &:before {
+    display: none;
+  }
+
+  .header__slogan {
+    color: $dark-bg;
+  }
+
+  .header-logo__box {
+    background-image: url('../images/clevernode-box-dark.svg');
+  }
+
+  .header-logo__name {
+    background-image: url('../images/clevernode-logo-dark.svg');
+  }
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -215,19 +329,24 @@ a {
 
 .avatar {
   float: right;
-  border-radius: 100%;
-  overflow: hidden;
   margin: 20px 0 20px 20px;
   width: 75px;
-  height: 75px;
+  text-align: center;
+  color: $bg;
 
   @media (min-width: $screen-sm) {
-    height: 150px;
-    width: 150px;
+    width: 256px;
   }
 
   img {
     width: 100%;
+    border-radius: 10%;
+    overflow: hidden;
+    transform: rotate(5deg) translateY(-5%);
+  }
+
+  span {
+    opacity: 0.5;
   }
 }
 
