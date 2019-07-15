@@ -8,6 +8,7 @@
 
   <main id="content" class="content">
     <%- body %>
+    <%- partial(`_partial/footers/${page.language || 'en'}`) %>
   </main>
 
   <%- partial('_partial/footer') %>

@@ -58,23 +58,3 @@ Does your team need help with React development? I can help your team get a gras
   [https://github.com/drammit/app](https://github.com/drammit/app)
 - **ZitKubus.com** is a great example how React can be integrated into other technologies. It used React to integrate Three.js (3D rendering), WooCommerce, and WordPress.
   [https://zitkubus.com/product/bedrukte-kubus/](https://zitkubus.com/product/bedrukte-kubus/)
-
-## Find me Online
-
-<ul class="find-online">
-  <li>
-    <a class="find-me find-me--twitter" href="https://twitter.com/GayaKessler">
-      Follow on Twitter
-    </a>
-  </li>
-  <li>
-    <a class="find-me find-me--linkedin" href="https://www.linkedin.com/in/gaya-kessler/">
-      Connect on LinkedIn
-    </a>
-  </li>
-  <li>
-    <a class="find-me find-me--github" href="https://github.com/Gaya">
-      Repositories on GitHub
-    </a>
-  </li>
-</ul>

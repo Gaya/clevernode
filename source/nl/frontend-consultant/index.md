@@ -36,23 +36,3 @@ Door mee te draaien in **verschillende vormen van agile** ontwikkelingsteams, ka
 Heb je moeite je producten af te maken, of moeite met het afronden van nieuwe features? Ik zorg dat het af komt.
 
 Eén van mijn sterke punten is dat ik kan zien wat er écht nodig is om **meters te maken, en het werk af te ronden** zonder in te leveren op kwaliteit.
-
-## Vind me online
-
-<ul class="find-online">
-    <li>
-        <a class="find-me find-me--twitter" href="https://twitter.com/GayaKessler">
-            Volg me op Twitter
-        </a>
-    </li>
-    <li>
-        <a class="find-me find-me--linkedin" href="https://www.linkedin.com/in/gaya-kessler/">
-            Connect op LinkedIn
-        </a>
-    </li>
-    <li>
-        <a class="find-me find-me--github" href="https://github.com/Gaya">
-            Repository's op GitHub
-        </a>
-    </li>
-</ul>
