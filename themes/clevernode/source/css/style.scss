@@ -167,9 +167,11 @@ a {
     color: $bg;
     padding: 12px 24px;
     text-decoration: none;
-    margin-right: 6px;
+    margin: 0 6px 0 0;
     border-radius: 6px;
     font-weight: 600;
+    white-space: nowrap;
+    display: inline-block;
 
     &:hover {
       color: $active;
@@ -185,6 +187,14 @@ a {
       color: $active;
       border-color: $active;
       background-color: transparent;
+    }
+  }
+
+  a:nth-child(2) {
+    margin-top: 2em;
+
+    @media (min-width: $screen-sm) {
+      margin-top: 0;
     }
   }
 }
@@ -328,16 +338,23 @@ a {
 }
 
 .avatar {
-  float: right;
-  margin: 20px 0 20px 20px;
-  width: 75px;
+  margin: 50px auto;
   text-align: center;
   color: $bg;
-  display: none;
+  display: block;
+
+  img {
+    width: 50%;
+  }
 
   @media (min-width: $screen-sm) {
+    margin: 20px 0 20px 20px;
     width: 128px;
-    display: block;
+    float: right;
+
+    img {
+      width: 100%;
+    }
   }
 
   @media (min-width: $screen-md) {
@@ -345,13 +362,13 @@ a {
   }
 
   img {
-    width: 100%;
     border-radius: 10%;
     overflow: hidden;
     transform: rotate(5deg) translateY(-5%);
   }
 
   span {
+    display: block;
     opacity: 0.5;
   }
 }
@@ -442,9 +459,11 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 30px;
 
     @media (min-width: $screen-md) {
       width: 200px;
+      padding: 0;
     }
 
     a {
