@@ -4,13 +4,8 @@ description: Gaya Kessler is a freelance React Developer with a lot of experienc
 date: 2019-07-11 12:42:58
 language: en
 langSwitch: /nl/react-developer/
+pageHeader: en-react
 ---
-
-<picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
-    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2"> 
-    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg"> 
-    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
-</picture>
 
 > Are you looking for an **experienced React Developer**? Look no further. I've been doing React since 2015, and JavaScript since 2007.
 

@@ -61,11 +61,6 @@ a {
       width: 200%;
       margin-left: -50%;
     }
-
-    @media (min-width: $screen-md) {
-      width: 150%;
-      margin-left: -25%;
-    }
   }
 
   &__container {
@@ -104,7 +99,27 @@ a {
     max-width: 1020px;
   }
 
-  .header-big__slogan {
+  .header-big__header-combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: $screen-sm) {
+      flex-direction: row;
+    }
+  }
+
+  &__logo {
+    max-width: 120px;
+    margin-bottom: 1em;
+
+    @media (min-width: $screen-sm) {
+      margin-right: 2em;
+      margin-bottom: 0;
+    }
+  }
+
+  &__slogan {
     color: $bg;
     width: auto;
     text-align: left;
@@ -113,7 +128,7 @@ a {
     line-height: 1.3em;
   }
 
-  .header-big__sub-slogan {
+  &__sub-slogan {
     width: auto;
     font-size: 1.4em;
     margin: 2em 0;
