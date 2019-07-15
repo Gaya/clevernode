@@ -54,7 +54,7 @@ Heeft je team hulp nodig met React development? Ik kan je team meer grip geven o
 
 - **Thyme** is een time tracker die ik volledig gemaakt heb met behulp van React, Redux, en Flow Type.
   [https://getthyme.com/thyme](https://getthyme.com/thyme)
-- **Drammit** is eena mobiele app die opnieuw in ontwikkeling is met React Native en TypeScript.
+- **Drammit** is een mobiele app die opnieuw in ontwikkeling is met React Native en TypeScript.
   [https://github.com/drammit/app](https://github.com/drammit/app)
 - **ZitKubus.com** is een goed voorbeeld hoe React samen kan werken met andere technieken. Het gebruikt React om Three.js (3D rendering), WooCommerce, en WordPress met elkaar te verbinden.
   [https://zitkubus.com/product/bedrukte-kubus/](https://zitkubus.com/product/bedrukte-kubus/)
