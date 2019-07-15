@@ -2,10 +2,7 @@
 
 <section class="menu">
     <a class="menu__item" href="#content">Skip to content</a>
-    <% for (name in theme.menu[page.language]) { %>
-        <a class="menu__item" href="<%= url_for((name === 'lang' && page.langSwitch) || theme.menu[page.language][name]) %>">
-            <%- __('menu.' + name) %>
-        </a>
-    <% } %>
+    <a class="menu__item" href="<%= url_for(theme.menu[page.language]['home']) %>"><%- __('menu.home') %></a>
+    <a class="menu__item" href="<%= url_for(page.langSwitch) %>"><%- __('menu.lang') %></a>
     <a class="menu__item" href="#contact">Contact</a>
 </section>

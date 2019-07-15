@@ -4,10 +4,12 @@ menu:
     home: /
     lang: /nl/
     react: /react-developer/
+    frontend: /frontend-consultant/
   nl:
     home: /nl/
     lang: /
     react: /nl/react-developer/
+    frontend: /nl/frontend-consultant/
 
 rss: /atom.xml
 

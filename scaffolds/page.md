@@ -1,6 +1,8 @@
 ---
 title: {{ title }}
 description: Description here
-lang: en
 date: {{ date }}
+language: en
+langSwitch: /nl/page/
+pageHeader: en-page
 ---

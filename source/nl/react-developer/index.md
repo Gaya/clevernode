@@ -58,3 +58,23 @@ Heeft je team hulp nodig met React development? Ik kan je team meer grip geven o
   [https://github.com/drammit/app](https://github.com/drammit/app)
 - **ZitKubus.com** is een goed voorbeeld hoe React samen kan werken met andere technieken. Het gebruikt React om Three.js (3D rendering), WooCommerce, en WordPress met elkaar te verbinden.
   [https://zitkubus.com/product/bedrukte-kubus/](https://zitkubus.com/product/bedrukte-kubus/)
+
+## Vind me online
+
+<ul class="find-online">
+    <li>
+        <a class="find-me find-me--twitter" href="https://twitter.com/GayaKessler">
+            Volg me op Twitter
+        </a>
+    </li>
+    <li>
+        <a class="find-me find-me--linkedin" href="https://www.linkedin.com/in/gaya-kessler/">
+            Connect op LinkedIn
+        </a>
+    </li>
+    <li>
+        <a class="find-me find-me--github" href="https://github.com/Gaya">
+            Repository's op GitHub
+        </a>
+    </li>
+</ul>

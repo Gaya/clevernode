@@ -1,3 +1,13 @@
+<section class="footer-menu">
+  <div class="footer-menu__container">
+    <% for (name in theme.menu[page.language]) { %>
+      <a href="<%= url_for((name === 'lang' && page.langSwitch) || theme.menu[page.language][name]) %>">
+        <%- __('menu.' + name) %>
+      </a>
+    <% } %>
+  </div>
+</section>
+
 <section class="address">
   <h2 id="contact">Contact</h2>
   <address>
