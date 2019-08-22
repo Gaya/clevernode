@@ -54,7 +54,7 @@ I love to work in agile environments, both on site and with remote teams.
   </div>
 </section>
 
-## Teaching Other Developers
+## Teaching and Mentoring Other Developers
 
 What I **love to do** is to **teach people** all I know about JavaScript, React, Node, remote work, and other subjects.
 

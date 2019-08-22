@@ -54,7 +54,7 @@ Mijn werk doe ik het best in een agile omgeving, op locatie, maar vooral met rem
     </div>
 </section>
 
-## Kennisdeling met andere developers
+## Kennisdeling en mentorschap voor andere developers
 
 Waar ik blij van word is **het delen van mijn kennis** van JavaScript, React, Node, remote werken, en andere zaken welke mijn vak zo interessant maken.
 
