@@ -13,7 +13,7 @@ React is a very popular framework for building **web applications**, statically 
 
 **I have a ton of experience with the framework** and can help you with the problem at hand.
 
-<section class="experience">
+<section class="experience experience--logos">
   <div class="experience__item">
     <img src="/images/react-logo.svg" alt="React">
     <p>React</p>

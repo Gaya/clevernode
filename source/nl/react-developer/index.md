@@ -13,7 +13,7 @@ React is een populair framework voor het bouwen van **web applicaties**, statisc
 
 **Ik heb ontzettend veel ervaring met het framework** op kunnen bouwen en help je graag de juiste oplossing te vinden voor je probleem.
 
-<section class="experience">
+<section class="experience experience--logos">
   <div class="experience__item">
     <img src="/images/react-logo.svg" alt="React">
     <p>React</p>

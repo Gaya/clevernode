@@ -4,7 +4,7 @@ description: Freelance Web Developer, gespecialiseerd in JavaScript, React, Node
 date: 2019-07-11 12:42:58
 language: nl
 pageHeader: nl-index
-langSwitch: /en/
+langSwitch: /
 ---
 
 > (Full stack) **Web Development**. Gespecialiseerd in **JavaScript**, **React**, Node.js en Moderne Front-end tooling. Met een achtergrond in informatica maak ik **uitgebreide applicaties** voor het Internet en mobiele platformen.
@@ -23,7 +23,7 @@ Ik richt me vooral op de volgende onderwerpen: **JavaScript**, front-end develop
 
 Mijn werk doe ik het best in een agile omgeving, op locatie, maar vooral met remote teams.
 
-<section class="experience">
+<section class="experience experience--logos">
     <div class="experience__item">
         <img src="/images/js-logo.svg" alt="JavaScript">
         <p>JavaScript</p>

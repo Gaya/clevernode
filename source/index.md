@@ -23,7 +23,7 @@ Subjects I mainly focus on are **JavaScript**, front-end development, **React**,
 
 I love to work in agile environments, both on site and with remote teams. 
 
-<section class="experience">
+<section class="experience experience--logos">
   <div class="experience__item">
     <img src="/images/js-logo.svg" alt="JavaScript">
     <p>JavaScript</p>
