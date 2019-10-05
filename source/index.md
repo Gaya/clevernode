@@ -7,7 +7,7 @@ langSwitch: /nl/
 pageHeader: en-index
 ---
 
-> (Full stack) **Web Developer**. Specialising in **JavaScript**, **React**, Node.js, and modern front-end. With a background in computer science, I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. 
+> (Full stack) **Web Developer**. Specialising in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end. With a background in computer science, I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. 
 
 Let me introduce myself, my name is **Gaya Kessler**, a developer living in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
 
@@ -19,7 +19,7 @@ I am passionate about creating the best for the web, always keeping up with the 
 
 ## What I am Good at
 
-Subjects I mainly focus on are **JavaScript**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications**, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
+Subjects I mainly focus on are **JavaScript** (and TypeScript), front-end development, **React**, Redux, **WebPack**, **Single Page Applications**, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
 
 I love to work in agile environments, both on site and with remote teams. 
 

@@ -7,7 +7,7 @@ pageHeader: nl-index
 langSwitch: /
 ---
 
-> (Full stack) **Web Development**. Gespecialiseerd in **JavaScript**, **React**, Node.js en Moderne Front-end tooling. Met een achtergrond in informatica maak ik **uitgebreide applicaties** voor het Internet en mobiele platformen.
+> (Full stack) **Web Development**. Gespecialiseerd in **JavaScript**, **React**, Node.js, TypeScript en Moderne Front-end tooling. Met een achtergrond in informatica maak ik **uitgebreide applicaties** voor het Internet en mobiele platformen.
 
 Even voorstellen: mijn naam is Gaya Kessler, een developer wonende in Deurne, vlakbij Eindhoven. Ik heb een uitgesproken mening en ben altijd bereid om een discussie te voeren of te helpen met het realiseren van iets moois.
 
@@ -19,7 +19,7 @@ Ik heb een passie voor het creëren van het beste voor het web, ondertussen houd
 
 ## Waar ik goed in ben
 
-Ik richt me vooral op de volgende onderwerpen: **JavaScript**, front-end development, **React**, Redux, **webpack**, **Single Page Applications**, mobile apps (**React Native**) en back-end JavaScript met behulp van **Node.js**.
+Ik richt me vooral op de volgende onderwerpen: **JavaScript** (en TypeScript), front-end development, **React**, Redux, **webpack**, **Single Page Applications**, mobile apps (**React Native**) en back-end JavaScript met behulp van **Node.js**.
 
 Mijn werk doe ik het best in een agile omgeving, op locatie, maar vooral met remote teams.
 
