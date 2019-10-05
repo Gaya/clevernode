@@ -37,6 +37,10 @@ Mijn werk doe ik het best in een agile omgeving, op locatie, maar vooral met rem
         <p>Node.js</p>
     </div>
     <div class="experience__item">
+        <img src="/images/typescript-logo.svg" alt="TypeScript">
+        <p>TypeScript</p>
+    </div>
+    <div class="experience__item">
         <img src="/images/redux-logo.svg" alt="Redux">
         <p>Redux</p>
     </div>

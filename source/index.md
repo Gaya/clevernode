@@ -37,6 +37,10 @@ I love to work in agile environments, both on site and with remote teams.
     <p>Node.js</p>
   </div>
   <div class="experience__item">
+    <img src="/images/typescript-logo.svg" alt="TypeScript">
+    <p>TypeScript</p>
+  </div>
+  <div class="experience__item">
     <img src="/images/redux-logo.svg" alt="Redux">
     <p>Redux</p>
   </div>

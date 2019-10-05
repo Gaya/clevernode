@@ -9,7 +9,7 @@ pageHeader: en-react
 
 > Are you looking for an **experienced React Developer**? Look no further. I've been doing React since 2015, and JavaScript since 2007.
 
-React is a very popular framework for building **web applications**, statically generated websites, mobile apps, and working with **headless CMS', blogs, or e-commerce**.
+React is a very popular framework for building **web applications**, statically generated websites, mobile apps, and working with **headless CMSes, blogs, or e-commerce**.
 
 **I have a ton of experience with the framework** and can help you with the problem at hand.
 
@@ -29,6 +29,14 @@ React is a very popular framework for building **web applications**, statically 
   <div class="experience__item">
     <img src="/images/react-logo.svg" alt="React">
     <p>React Native</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/typescript-logo.svg" alt="TypeScript">
+    <p>TypeScript</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/webpack-logo.svg" alt="webpack">
+    <p>WebPack</p>
   </div>
 </section>
 

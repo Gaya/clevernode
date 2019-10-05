@@ -30,6 +30,14 @@ React is een populair framework voor het bouwen van **web applicaties**, statisc
     <img src="/images/react-logo.svg" alt="React">
     <p>React Native</p>
   </div>
+  <div class="experience__item">
+    <img src="/images/typescript-logo.svg" alt="TypeScript">
+    <p>TypeScript</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/webpack-logo.svg" alt="webpack">
+    <p>WebPack</p>
+  </div>
 </section>
 
 <section class="contact-now">
