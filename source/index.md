@@ -19,7 +19,7 @@ I am passionate about creating the best for the web, always keeping up with the 
 
 ## What I am Good at
 
-Subjects I mainly focus on are **JavaScript** (and TypeScript), front-end development, **React**, Redux, **WebPack**, **Single Page Applications**, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
+Subjects I mainly focus on are **JavaScript** (and TypeScript), front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, mobile apps (**React Native**), and back-end JavaScript using **Node.js**.
 
 I love to work in agile environments, both on site and with remote teams. 
 

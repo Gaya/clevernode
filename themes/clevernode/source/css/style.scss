@@ -388,7 +388,6 @@ a {
 .avatar {
   margin: 50px auto;
   text-align: center;
-  color: $bg;
   display: block;
 
   img {
@@ -396,7 +395,7 @@ a {
   }
 
   @media (min-width: $screen-sm) {
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 20px 50px;
     width: 128px;
     float: right;
 
@@ -410,14 +409,13 @@ a {
   }
 
   img {
-    border-radius: 10%;
+    border-radius: 50%;
     overflow: hidden;
-    transform: rotate(5deg) translateY(-5%);
   }
 
   span {
     display: block;
-    opacity: 0.5;
+    font-style: italic;
   }
 }
 

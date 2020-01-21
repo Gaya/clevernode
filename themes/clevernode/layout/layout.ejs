@@ -7,11 +7,17 @@
   <%- partial('_partial/header') %>
 
   <main id="content" class="content">
+    <picture class="avatar" alt="Gaya Kessler" title="Gaya Kessler">
+      <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2">
+      <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg">
+      <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
+      <span>Freelance Developer,<br>Gaya Kessler</span>
+    </picture>
+
     <%- body %>
     <%- partial(`_partial/footers/${page.language || 'en'}`) %>
   </main>
 
   <%- partial('_partial/footer') %>
-  <%- css('css/style.css') %>
 </body>
 </html>
