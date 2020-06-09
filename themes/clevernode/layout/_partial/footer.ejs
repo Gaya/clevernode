@@ -1,46 +1,48 @@
-<section class="footer-menu">
-  <div class="footer-menu__container">
-    <% for (name in theme.menu[page.language]) { %>
-      <a href="<%= url_for((name === 'lang' && page.langSwitch) || theme.menu[page.language][name]) %>">
-        <%- __('menu.' + name) %>
-      </a>
-    <% } %>
-  </div>
-</section>
-
-<section class="address">
-  <h2 id="contact">Contact</h2>
-  <address>
-    Gaya Kessler - CleverNode<br />
-    Deurne / Eindhoven, Noord-Brabant<br />
-    The Netherlands<br />
-    <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
-  </address>
-</section>
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "url": "https://theclevernode.com",
-    "name": "CleverNode",
-    "email": "gaya@theclevernode.com",
-    "location": {
-      "@type": "PostalAddress",
-      "addressCountry": "NL",
-      "addressLocality": "Deurne",
-      "addressRegion": "Noord-Brabant"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "gaya@theclevernode.com",
-      "contactType": "sales",
-      "url": "https://theclevernode.com"
-    }
-  }
-</script>
-
 <footer class="footer">
-  Keep it Simple &nbsp;&mdash;&nbsp; CleverNode
-  <div class="header-logo__box"></div>
+  <section class="footer-menu">
+    <div class="footer-menu__container">
+      <% for (name in theme.menu[page.language]) { %>
+        <a href="<%= url_for((name === 'lang' && page.langSwitch) || theme.menu[page.language][name]) %>">
+          <%- __('menu.' + name) %>
+        </a>
+      <% } %>
+    </div>
+  </section>
+
+  <section class="address">
+    <h2 id="contact">Contact</h2>
+    <address>
+      Gaya Kessler - CleverNode<br />
+      Deurne / Eindhoven, Noord-Brabant<br />
+      The Netherlands<br />
+      <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
+    </address>
+  </section>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://theclevernode.com",
+      "name": "CleverNode",
+      "email": "gaya@theclevernode.com",
+      "location": {
+        "@type": "PostalAddress",
+        "addressCountry": "NL",
+        "addressLocality": "Deurne",
+        "addressRegion": "Noord-Brabant"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "gaya@theclevernode.com",
+        "contactType": "sales",
+        "url": "https://theclevernode.com"
+      }
+    }
+  </script>
+
+  <section class="footer__outro">
+    Keep it Simple &nbsp;&mdash;&nbsp; CleverNode
+    <div class="header-logo__box"></div>
+  </section>
 </footer>

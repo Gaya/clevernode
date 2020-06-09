@@ -195,16 +195,6 @@ a {
 }
 
 .footer-menu {
-  @extend %bg-pattern;
-
-  @media (min-width: $screen-sm) {
-    margin-top: 2em;
-  }
-
-  @media (min-width: $screen-md) {
-    margin-top: 4em;
-  }
-
   &__container {
     max-width: 720px;
     padding: 20px 10px;
@@ -394,10 +384,12 @@ a {
 }
 
 .address {
-  @extend %bg-pattern;
-  color: $bg;
   text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
 
   @media (min-width: $screen-sm) {
     padding: 20px;
@@ -486,9 +478,25 @@ a {
 
 .footer {
   @extend %bg-pattern;
+  color: $bg;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $screen-sm) {
+    margin-top: 2em;
+  }
+
+  @media (min-width: $screen-md) {
+    margin-top: 4em;
+  }
+}
+
+.footer__outro {
   color: lighten($dark-bg, 50);
   text-align: center;
   padding: 0 10px 10px 10px;
+  flex-grow: 1;
 
   .header-logo__box {
     margin: 10px auto;
