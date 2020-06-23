@@ -1,9 +1,0 @@
-# Redirect domain aliases to primary domain
-https://gaya.ninja/* https://theclevernode.com/:splat 301!
-https://www.gaya.ninja/* https://theclevernode.com/:splat 301!
-
-# Redirect plugin site
-https://theclevernode.com/ab-testing-for-wordpress/* https://abtestingforwp.com/:splat 301!
-
-# Optional: Redirect default Netlify subdomain to primary domain
-https://clevernode.netlify.com/* https://theclevernode.com/:splat 301!
