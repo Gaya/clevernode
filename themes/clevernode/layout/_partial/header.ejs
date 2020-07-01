@@ -9,10 +9,3 @@
         <h2 class="header__slogan"><%= config.subtitle %></h2>
     </section>
 </header>
-
-<section class="menu">
-    <a class="menu__item" href="#content">Skip to content</a>
-    <a class="menu__item" href="<%= url_for(theme.menu[page.language]['home']) %>"><%- __('menu.home') %></a>
-    <a class="menu__item" href="<%= url_for(page.langSwitch) %>"><%- __('menu.lang') %></a>
-    <a class="menu__item" href="#contact">Contact</a>
-</section>

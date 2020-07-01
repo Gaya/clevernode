@@ -1,31 +1,37 @@
 ---
 title: Freelance JavaScript Developer - Gaya Kessler
 description: Freelance Developer from the Netherlands. Specialises in JavaScript, Node.js, React, TypeScript, and modern front-end development.
-date: 2019-07-11 12:42:58
+date: 2020-07-01 12:00:00
 language: en
 langSwitch: /nl/
 pageHeader: en-index
 ---
 
-> (Full stack) **Web Developer**. Specialising in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end. I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. 
+> (Full stack) **Web Developer**. I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
 
-I am **Gaya Kessler**, a developer living in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
+My name is **Gaya Kessler**, a developer living in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
 
-My passion is to create the best for the web, always keeping up with the latest in web technologies. This allowed me to work on a lot of different projects, and thus experience what works and what doesn't in various different situations.
+My passion is to create _the best for the web_, always keeping up with the latest technologies and trends. This allows me to work on projects with different perspectives, and thus know what works and what doesn't.
 
 **I create simple solutions to complex problems.**
 
 <section class="contact-now">
-  <a class="contact-now__link" href="#contact">Contact me now</a>
+  <a class="contact-now__link" href="#contact">Get in touch</a>
 </section>
 
 ## What I am Good at
 
+My main value I provide is that I can take a **complex subject** and turn it into something **understandable**. This way even starting programmers can follow what the complex parts of your product are doing.
+
+I love **sharing my knowledge** and like to **teach and mentor developers** while I work on projects. This way the team I am working with will get a bit of my experience transferred to them.
+
+My believe is that I **bring more value** to the product if I teach my ways to the current development team.
+
+My work is at its best in **agile environments**, and with **remote teams**. On site is also possible.
+
+## Technologies I Excel at
+
 Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScript using **Node.js**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, and mobile apps (**React Native**).
-
-I love to work in **agile environments**, both on site and with **remote teams**.
-
-My main value I provide is that I can take a **complex subject** and turn it into something **understandable**. This way even beginning programmers can follow what the complex parts of the product are doing. 
 
 <section class="experience experience--logos">
   <div class="experience__item">
@@ -48,9 +54,9 @@ My main value I provide is that I can take a **complex subject** and turn it int
 
 ## Why Hire me?
 
-Hire me for **freelance JavaScript / React development** as well as solving the whole **front-end tool stack of your projects**. My experience lies in creating solid and stable applications which teams of developers like to keep working on and improve.
+Hire me for **freelance JavaScript / React development**. I can solve your whole **front-end of your projects**. My experience lies in creating solid and stable applications which teams of developers like to keep working on and improve.
 
-My strength is that I know how to structure and create the right architectures for complex web applications. I also have an eye for code quality and following best-practises.
+My strength is that I know how to structure and create the **right architectures for complex web applications**. I also have an eye for code quality and following best-practises.
 
 I help teams create readable solutions and future proof code.
 
@@ -58,12 +64,34 @@ I help teams create readable solutions and future proof code.
   <a class="contact-now__link" href="#contact">Contact me now</a>
 </section>
 
+
+
 ## Professional Experience
 
-I have been working in web development professionally from 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't.
+I have been working in web development professionally from 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
 
-I also occasionally speak at meetups, conferences, and in-company about these topics.
+I also occasionally **speak at meetups, conferences, and do in-company training** about technology and trends.
 
 In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown applications**; anything is possible.
 
 [Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
+
+## Find me Online
+
+<ul class="find-online">
+    <li>
+        <a class="find-me find-me--twitter" href="https://twitter.com/GayaKessler">
+            Follow on Twitter
+        </a>
+    </li>
+    <li>
+        <a class="find-me find-me--linkedin" href="https://www.linkedin.com/in/gaya-kessler/">
+            Connect on LinkedIn
+        </a>
+    </li>
+    <li>
+        <a class="find-me find-me--github" href="https://github.com/Gaya">
+            Repositories on GitHub
+        </a>
+    </li>
+</ul>
