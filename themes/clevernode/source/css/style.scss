@@ -246,12 +246,18 @@ a {
     float: right;
 
     img {
-      width: 100%;
+      width: 128px;
+      height: 128px;
     }
   }
 
   @media (min-width: $screen-md) {
     width: 256px;
+
+    img {
+      width: 256px;
+      height: 256px;
+    }
   }
 
   img {
