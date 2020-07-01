@@ -1,22 +1,15 @@
 <footer class="footer">
-  <section class="footer-menu">
-    <div class="footer-menu__container">
-      <% for (name in theme.menu[page.language]) { %>
-        <a href="<%= url_for((name === 'lang' && page.langSwitch) || theme.menu[page.language][name]) %>">
-          <%- __('menu.' + name) %>
-        </a>
-      <% } %>
-    </div>
-  </section>
-
   <section class="address">
     <h2 id="contact">Contact</h2>
+
     <address>
       Gaya Kessler - CleverNode<br />
       Deurne / Eindhoven, Noord-Brabant<br />
       The Netherlands<br />
       <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a>
     </address>
+
+    <p>The best way to get in contact with me is to send an email to <a href="mailto:gaya@theclevernode.com">gaya@theclevernode.com</a></p>
   </section>
 
   <script type="application/ld+json">
