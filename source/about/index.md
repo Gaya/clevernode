@@ -9,3 +9,13 @@ pageHeader: en-index
 # About Gaya Kessler
 
 > Bla bla bla
+
+- Location
+- Interest in computer and creating 
+- Education
+- Writing about what I learned
+- Working at different companies
+- Always focusing on learning and teaching
+- Side projects
+- Going freelance
+- Running, cooking, music, whisky, sustainable lifestyle
