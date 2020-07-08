@@ -93,14 +93,22 @@ a {
     justify-content: center;
     align-content: center;
 
+    @media (min-width: $screen-md) {
+      margin-bottom: 2em;
+    }
+
     &__item {
       list-style-type: none;
+
+      @media (min-width: $screen-md) {
+        margin: 0 1em;
+      }
 
       a {
         color: $bg;
         text-decoration: none;
         display: inline-block;
-        padding: 3px 13px;
+        padding: 6px 18px;
       }
 
       &--attn {
@@ -391,6 +399,11 @@ a {
       @media (min-width: $screen-md) {
         margin: 2em -30px;
         width: calc(100% + 60px);
+      }
+
+      @media (min-width: $screen-lg) {
+        margin: 2em -100px;
+        width: calc(100% + 200px);
       }
     }
 
