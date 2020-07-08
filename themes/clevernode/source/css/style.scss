@@ -500,6 +500,7 @@ a {
 
 .footer {
   @extend %bg-pattern;
+  clear: both;
   color: $bg;
   min-height: 100vh;
   display: flex;
