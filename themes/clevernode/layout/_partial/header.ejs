@@ -1,11 +1,25 @@
 <header class="header">
     <section class="header__container">
-        <section class="header-logo header__logo">
-            <div class="header-logo__box"></div>
-            <h1 class="header-logo__name">
-                <a class="site-title" href="/"><%= config.title %></a>
-            </h1>
-        </section>
+        <h1>
+            <a href="/" class="header-logo header__logo">
+                <span class="header-logo__box"></span>
+                <span class="header-logo__name">
+                    <span class="site-title"><%= config.title %></span>
+                </span>
+            </a>
+        </h1>
         <h2 class="header__slogan"><%= config.subtitle %></h2>
+
+        <menu class="header__menu">
+            <li class="header__menu__item">
+                <a href="/about">About</a>
+            </li>
+            <li class="header__menu__item">
+                <a href="https://gaya.pizza">Articles</a>
+            </li>
+            <li class="header__menu__item header__menu__item--attn">
+                <a href="/#contact">Hire me</a>
+            </li>
+        </menu>
     </section>
 </header>

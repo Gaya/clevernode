@@ -86,6 +86,30 @@ a {
       padding-bottom: 40px;
     }
   }
+
+  &__menu {
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-content: center;
+
+    &__item {
+      list-style-type: none;
+
+      a {
+        color: $bg;
+        text-decoration: none;
+        display: inline-block;
+        padding: 3px 13px;
+      }
+
+      &--attn {
+        a {
+          border: 1px solid $bg;
+        }
+      }
+    }
+  }
 }
 
 .header-logo {
