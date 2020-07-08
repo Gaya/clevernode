@@ -390,11 +390,12 @@ a {
 
   .picture {
     display: flex;
+    align-items: flex-start;
     margin: 2em 0;
 
     &--fullwidth {
-      margin: 2em -20px;
-      width: calc(100% + 40px);
+      margin: 2em -10px;
+      width: calc(100% + 20px);
 
       @media (min-width: $screen-md) {
         margin: 2em -30px;
