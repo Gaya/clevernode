@@ -6,6 +6,15 @@ language: en
 pageHeader: en-index
 ---
 
+<section class="avatar">
+  <picture class="avatar__picture" alt="Gaya Kessler" title="Gaya Kessler">
+    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2">
+    <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg">
+    <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
+  </picture>
+  <span>Freelance Developer,<br>Gaya Kessler</span>
+</section>
+
 > (Full stack) **Web Developer**. I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
 
 My name is **Gaya Kessler**, a developer living in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.

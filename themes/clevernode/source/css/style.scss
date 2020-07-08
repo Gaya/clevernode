@@ -341,6 +341,11 @@ a {
     }
   }
 
+  h1 {
+    font-size: 28px;
+    margin-top: 52px;
+  }
+
   h2 {
     font-size: 20px;
     margin-top: 72px;
@@ -372,6 +377,24 @@ a {
     li {
       margin: 12px 0;
       list-style: disc;
+    }
+  }
+
+  .picture {
+    display: block;
+
+    &--fullwidth {
+      margin: 0 -20px;
+      width: calc(100% + 40px);
+
+      @media (min-width: $screen-md) {
+        margin: 0 -30px;
+        width: calc(100% + 60px);
+      }
+    }
+
+    img {
+      width: 100%;
     }
   }
 }
@@ -528,6 +551,12 @@ a {
   &--linkedin {
     &:before {
       background-image: url('../images/linkedin-logo.svg');
+    }
+  }
+
+  &--mail {
+    &:before {
+      background-image: url('../images/mail.svg');
     }
   }
 }
