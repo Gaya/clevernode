@@ -34,8 +34,8 @@ I've worked as an employee at a handful of different companies through the years
 
 Through the years I always focused my work around **learning and challenging myself**. I love sharing this knowledge and have **spoken at various meetups and conferences**. Sharing knowledge and helping people improve their skills is something I get the most satisfaction out off.
 
-<picture class="picture picture--marathon">
-    <img src="./gaya-marathon-eindhoven.jpg" alt="Gaya Kessler at Eindhoven marathon" />
+<picture class="picture picture--whisky">
+    <img src="./gaya-strathisla.jpg" alt="Gaya Kessler at Strathisla distillery in Scotland" />
 </picture>
 
 One of the things I seem to like the best was _JavaScript_ and making a web page interactive. I tried to do as much work with JavaScript and tried to utilise it for projects at jobs I had in order to **hone my skills**.
@@ -44,8 +44,8 @@ For the sake practising and learning even more **I started a lot of side-project
 
 After ten years of working at companies, I thought it was time to **move on and work freelance**. This has allowed me to work for awesome companies like [Philips](https://philips.com), [Route42](https://route42.nl), [BrewPi](https://brewpi.com), and [Dekode](https://dekode.no). Whilst also creating more breathing room for my personal endeavours.
 
-<picture class="picture picture--whisky">
-    <img src="./gaya-strathisla.jpg" alt="Gaya Kessler at Strathisla distillery in Scotland" />
+<picture class="picture picture--marathon">
+    <img src="./gaya-marathon-eindhoven.jpg" alt="Gaya Kessler at Eindhoven marathon" />
 </picture>
 
 Apart from development and programming I like to take enough time off to enjoy life away from the desk.
