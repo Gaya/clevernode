@@ -82,7 +82,7 @@ In the past I have worked on projects of various sizes. This helped me in choosi
 
 [Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
 
-## Companies That Hired Me
+## Some of the Companies That Hired Me
 
 <section class="projects">
     <div class="projects__item">
@@ -90,8 +90,12 @@ In the past I have worked on projects of various sizes. This helped me in choosi
         <p>Cloud hosting platform for Philips Healthcare in Node.js</p>
     </div>
     <div class="projects__item">
+        <a href="https://graylog.com"><img src="/images/graylog.svg" alt="Graylog"></a>
+        <p>React development for the cloud team</p>
+    </div>
+    <div class="projects__item">
         <a href="https://route42.nl"><img src="/images/route42-logo.svg" alt="Route42"></a>
-        <p>Improving development of product and education of development team</p>
+        <p>Improving development experience and education of development team</p>
     </div>
     <div class="projects__item">
         <a href="https://dekode.no"><img src="/images/dekode.svg" alt="Dekode"></a>
