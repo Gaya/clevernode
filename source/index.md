@@ -91,7 +91,7 @@ In the past I have worked on projects of various sizes. This helped me in choosi
     </div>
     <div class="projects__item">
         <a href="https://graylog.com"><img src="/images/graylog.svg" alt="Graylog"></a>
-        <p>React development for the cloud team</p>
+        <p>React development for core and cloud product</p>
     </div>
     <div class="projects__item">
         <a href="https://intoto.io"><img src="/images/intoto-logo.svg" alt="Intoto"></a>
@@ -99,7 +99,7 @@ In the past I have worked on projects of various sizes. This helped me in choosi
     </div>
     <div class="projects__item">
         <a href="https://route42.nl"><img src="/images/route42-logo.svg" alt="Route42"></a>
-        <p>Improving development experience and education of development team</p>
+        <p>Improving development experience and educating development team</p>
     </div>
     <div class="projects__item">
         <a href="https://dekode.no"><img src="/images/dekode.svg" alt="Dekode"></a>
