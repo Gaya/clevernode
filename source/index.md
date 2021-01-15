@@ -94,6 +94,10 @@ In the past I have worked on projects of various sizes. This helped me in choosi
         <p>React development for the cloud team</p>
     </div>
     <div class="projects__item">
+        <a href="https://intoto.io"><img src="/images/intoto-logo.svg" alt="Intoto"></a>
+        <p>Visualising intelligent river data</p>
+    </div>
+    <div class="projects__item">
         <a href="https://route42.nl"><img src="/images/route42-logo.svg" alt="Route42"></a>
         <p>Improving development experience and education of development team</p>
     </div>
