@@ -33,11 +33,13 @@ My main value I provide is that I can take a **complex subject** and turn it int
 
 I love **sharing my knowledge** and like to **teach and mentor developers** while I work on projects. This way the team I am working with will get a bit of my experience transferred to them.
 
-My believe is that I **bring more value** to the product if I teach my ways to the current development team.
+My belief is that I **bring more value** to the product if I teach my ways to the current development team.
 
 My work is at its best in **agile environments**, and with **remote teams**. On site is also possible.
 
 ## Technologies I Excel at
+
+While the technologies I use do not necessarily affect the results of my work, it shows what I most comfortable with.
 
 Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScript using **Node.js**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, and mobile apps (**React Native**).
 
@@ -65,6 +67,8 @@ Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScr
 Hire me for **freelance JavaScript / React development**. I can solve your whole **front-end of your projects**. My experience lies in creating solid and stable applications which teams of developers like to keep working on and improve.
 
 My strength is that I know how to structure and create the **right architectures for complex web applications**. I also have an eye for code quality and following best-practises.
+
+I also have a background in **backend / web services development**, therefore **I can cover a broad spectrum of needs**. This also makes it a lot easier for me to interact with existing teams.
 
 I help teams create readable solutions and future proof code.
 
