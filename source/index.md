@@ -93,6 +93,33 @@ I help teams create readable solutions and future proof code.
     </div>
 </section>
 
+## What Do Other Say About Me?
+
+<section class="testimonials">
+    <div class="testimonials__item">
+        <section class="testimonials__item__avatar">
+            <img src="/images/robin-verlangen.jpg" alt="Robin Verlangen, CTO at Route42" title="Robin Verlangen, CTO at Route42">
+        </section>
+        <div class="testimonials__item__quote">
+            <blockquote>
+                Gaya is one of the most skilled developers I know, striking the right balance between being pragmatic and delivering high quality code. This helped us to move forward quickly with our products.
+            </blockquote>
+            <span>Robin Verlangen, CTO at Route42</span>
+        </div>
+    </div>
+    <div class="testimonials__item">
+        <section class="testimonials__item__avatar">
+            <img src="/images/tom-hirst.jpg" alt="Tom Hirst, Freelance WordPress Developer" title="Tom Hirst, Freelance WordPress Developer">
+        </section>
+        <div class="testimonials__item__quote">
+            <blockquote>
+                Gaya is an absolute pleasure to work with. Not only is he one of the most skilled developers I've ever collaborated with, but he's one of the nicest people too. If you need a JavaScript pro to code your project, teach your developers or run a workshop for your company; Gaya is your man.
+            </blockquote>
+            <span>Tom Hirst, Freelance WordPress Developer</span>
+        </div>
+    </div>
+</section>
+
 ## Technologies I Excel at
 
 While the technologies I use do not necessarily affect the results of my work, it shows what I most comfortable with.
