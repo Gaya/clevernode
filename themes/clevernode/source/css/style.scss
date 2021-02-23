@@ -448,6 +448,7 @@ a {
     @media (min-width: $screen-md) {
       flex-direction: row;
       align-items: center;
+      margin: 3em;
     }
 
     &:nth-child(2n) {
@@ -456,7 +457,7 @@ a {
 
         .testimonials__item__avatar {
           margin-left: 2em;
-          margin-right: 0;
+          margin-right: -2em;
         }
       }
     }
@@ -469,6 +470,7 @@ a {
 
       @media (min-width: $screen-md) {
         margin-right: 2em;
+        margin-left: -2em;
       }
 
       img {
