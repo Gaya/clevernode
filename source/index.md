@@ -15,52 +15,35 @@ pageHeader: en-index
   <span>Freelance Developer,<br>Gaya Kessler</span>
 </section>
 
-> (Full stack) **Web Developer**. I create **rich applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
+> I create **web applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
 
-My name is **Gaya Kessler**, a developer living in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
+My name is **Gaya Kessler**, an independent (full stack) web developer located in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
 
-My passion is to create _the best for the web_, always keeping up with the latest technologies and trends. This allows me to work on projects with different perspectives, and thus know what works and what doesn't.
+My passion is to create _the best for the web_, and to always keep up with the latest technologies and trends.
 
-**I create simple solutions to complex problems.**
+In a nutshell: **I create simple solutions to complex problems.**
 
 <section class="contact-now">
   <a class="contact-now__link" href="#contact">Get in touch</a>
 </section>
 
+## Hire me for
+
+- A **reliable** and motivated freelance developer with the **product and end-users as a priority**. 
+- Well-thought-out **development of your product** and idea.
+- Over **15 years** of professional experience creating for the web.
+- **Pragmatic approach** to improving your existing product.
+- Help lift your in-house developers to **a new level**.
+
 ## What I am Good at
 
-My main value I provide is that I can take a **complex subject** and turn it into something **understandable**. This way even starting programmers can follow what the complex parts of your product are doing.
+The main value I provide is that I can take a **complex subject** and turn it into something **understandable**. This way even starting programmers can follow what the complex parts of your product are doing.
 
 I love **sharing my knowledge** and like to **teach and mentor developers** while I work on projects. This way the team I am working with will get a bit of my experience transferred to them.
 
 My belief is that I **bring more value** to the product if I teach my ways to the current development team.
 
 My work is at its best in **agile environments**, and with **remote teams**. On site is also possible.
-
-## Technologies I Excel at
-
-While the technologies I use do not necessarily affect the results of my work, it shows what I most comfortable with.
-
-Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScript using **Node.js**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, and mobile apps (**React Native**).
-
-<section class="experience experience--logos">
-  <div class="experience__item">
-    <img src="/images/js-logo.svg" alt="JavaScript">
-    <p>JavaScript</p>
-  </div>
-  <div class="experience__item">
-    <img src="/images/react-logo.svg" alt="React">
-    <p>React</p>
-  </div>
-  <div class="experience__item">
-    <img src="/images/node-logo.svg" alt="Node.js">
-    <p>Node.js</p>
-  </div>
-  <div class="experience__item">
-    <img src="/images/typescript-logo.svg" alt="TypeScript">
-    <p>TypeScript</p>
-  </div>
-</section>
 
 ## Why Hire me?
 
@@ -75,16 +58,6 @@ I help teams create readable solutions and future proof code.
 <section class="contact-now">
   <a class="contact-now__link" href="#contact">Contact me now</a>
 </section>
-
-## Professional Experience
-
-I have been working in web development professionally from 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
-
-I also occasionally **speak at meetups, conferences, and do in-company training** about technology and trends.
-
-In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown applications**; anything is possible.
-
-[Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
 
 ## Some of the Companies That Hired Me
 
@@ -119,6 +92,41 @@ In the past I have worked on projects of various sizes. This helped me in choosi
         <p>Web Application for a Brewery Controller</p>
     </div>
 </section>
+
+## Technologies I Excel at
+
+While the technologies I use do not necessarily affect the results of my work, it shows what I most comfortable with.
+
+Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScript using **Node.js**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, and mobile apps (**React Native**).
+
+<section class="experience experience--logos">
+  <div class="experience__item">
+    <img src="/images/js-logo.svg" alt="JavaScript">
+    <p>JavaScript</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/react-logo.svg" alt="React">
+    <p>React</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/node-logo.svg" alt="Node.js">
+    <p>Node.js</p>
+  </div>
+  <div class="experience__item">
+    <img src="/images/typescript-logo.svg" alt="TypeScript">
+    <p>TypeScript</p>
+  </div>
+</section>
+
+## Professional Experience
+
+I have been working in web development professionally from 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
+
+I also occasionally **speak at meetups, conferences, and do in-company training** about technology and trends.
+
+In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown applications**; anything is possible.
+
+[Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
 
 ## CleverNode Projects
 
