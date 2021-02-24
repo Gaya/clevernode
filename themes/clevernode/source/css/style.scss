@@ -448,7 +448,7 @@ a {
     @media (min-width: $screen-md) {
       flex-direction: row;
       align-items: center;
-      margin: 3em;
+      margin: 1em;
     }
 
     &:nth-child(2n) {
@@ -456,8 +456,8 @@ a {
         flex-direction: row-reverse;
 
         .testimonials__item__avatar {
-          margin-left: 2em;
-          margin-right: -2em;
+          margin-left: 3em;
+          margin-right: -4em;
         }
       }
     }
@@ -469,8 +469,8 @@ a {
       margin-bottom: 1em;
 
       @media (min-width: $screen-md) {
-        margin-right: 2em;
-        margin-left: -2em;
+        margin-right: 3em;
+        margin-left: -4em;
       }
 
       img {
@@ -482,7 +482,7 @@ a {
 
     &__quote {
       blockquote {
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 1.7em;
 
         &:before, &:after {
@@ -501,6 +501,7 @@ a {
       span {
         color: lighten($dark-bg, 30);
         font-style: italic;
+        font-size: 0.9em;
 
         &:before {
           content: "— ";

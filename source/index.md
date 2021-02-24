@@ -98,6 +98,17 @@ I help teams create readable solutions and future proof code.
 <section class="testimonials">
     <div class="testimonials__item">
         <section class="testimonials__item__avatar">
+            <img src="/images/scott-basgaard.jpg" alt="Scott Basgaard, CTO at Intoto" title="Scott Basgaard, CTO at Intoto">
+        </section>
+        <div class="testimonials__item__quote">
+            <blockquote>
+                I often compare trying to find the best developers with finding an amazing drummer for a band. They are the key to success and almost impossible to find. There are so many out there but the good ones have already found success and are usually unavailable. Gaya is that perfect drummer who has been available for me on multiple projects and a key to success. He’s an amazing developer, communicator and innovator and always sees the bigger picture of whatever I’ve thrown his way. I’ve worked with a large amount of people over my career and Gaya is on the top of my list!
+            </blockquote>
+            <span>Scott Basgaard, CTO at Intoto</span>
+        </div>
+    </div>
+    <div class="testimonials__item">
+        <section class="testimonials__item__avatar">
             <img src="/images/robin-verlangen.jpg" alt="Robin Verlangen, CTO at Route42" title="Robin Verlangen, CTO at Route42">
         </section>
         <div class="testimonials__item__quote">
