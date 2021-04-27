@@ -176,10 +176,6 @@ Apart from freelance work, I also spend a lot of my time working on side-project
         <p>Privacy First Time Tracker</p>
     </div>
     <div class="projects__item">
-        <a href="https://abtestingforwp.com"><img src="/images/ab-testing-for-wp-logo.svg" alt="A/B Testing for WordPress" /></a>
-        <p>A/B Testing for WordPress</p>
-    </div>
-    <div class="projects__item">
         <a href="https://createmy.run"><img src="/images/create-my-run-logo.svg" alt="CreateMy.Run" /></a>
         <p>Running route generator</p>
     </div>
