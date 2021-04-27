@@ -27,8 +27,9 @@ This page lists the tools I use to do my job. Based on examples by other people 
 
 # On my desk
 - _MacBook Pro mid-2015_ is my current workstation
+- Recently switched to a sit / stand desk and loving it!
 - I use *just* one monitor: _LG 27UD58 4K Display_
-- My keyboard is a [Keychron K3 Mechanical Keyboard](https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard) - White Backlight - Red switches
+- My keyboard is a _Magic Keyboard with Numeric Keypad - Space Grey_
 - _Magic Trackpad 2 - Space Grey_ instead of a mouse. Best choice ever.
 - I have two old school _Philips FB750 speakers_ for my listening pleasure
 - Which needs an amp, mine is a very small one: [Fosi Audio mini power amp](https://fosiaudio.com/collections/2-channel-amplifier/products/tda7498e-2-channel-stereo-audio-amplifier-receiver-mini-hi-fi-class-d-integrated-amp-home-speakers-160w-x-2-power-supply)
