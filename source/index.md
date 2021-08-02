@@ -180,8 +180,8 @@ Apart from freelance work, I also spend a lot of my time working on side-project
         <p>Running route generator</p>
     </div>
     <div class="projects__item">
-        <a href="https://dramm.it"><img src="/images/drammit-logo.svg" alt="Drammit" /></a>
-        <p>Social Whisky App</p>
+        <img src="/images/drammit-logo.svg" alt="Drammit" />
+        <p>(Discontinued) Social Whisky App</p>
     </div>
 </section>
 
