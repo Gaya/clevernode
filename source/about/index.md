@@ -52,9 +52,9 @@ Apart from development and programming I like to take enough time off to enjoy l
 
 I am an active **runner**, which helps me both physically and mentally. I created [Create My Run](https://createmy.run), a small web application where runners can generate their runs based on location and distance they'd wish to run.
 
-I love to **cook** for me and my wife, friends, and family. 
+You can find me at **loud music** concerts drinking a beer and banging my head. I also play in a band called Dead Soil, and [share some solo music on Youtube](https://www.youtube.com/channel/UChnJcc3EMvjjzx_yc0nUuSA).  
 
-You can find me at **loud music** concerts drinking a beer and banging my head. 
+I love to **cook** for me and my wife, friends, and family. 
 
 I enjoy a good **glass of whisky** (or whiskey) with good company and a good conversation. 
 
