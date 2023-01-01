@@ -4,14 +4,11 @@
 
 # Site
 title: CleverNode
-subtitle: JavaScript and Modern Frontend Development
-subtitle_nl: JavaScript en Moderne Frontend Development
-description: Freelance Web Developer from the Netherlands. Specialises in JavaScript, React, Redux, and Modern Front-end Development.
+subtitle: Freelance JavaScript Development and Consultancy
+description: Freelance developer and consultant from the Netherlands. Specialises in JavaScript, Node.js, TypeScript, React, and front-end development.
 keywords:
 author: Gaya Kessler
-language:
-  - en
-  - nl
+language: en
 timezone: CET
 
 # URL

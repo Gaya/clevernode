@@ -1,7 +1,7 @@
 ---
-title: Freelance JavaScript Developer - Gaya Kessler
-description: Freelance Developer from the Netherlands. Specialises in JavaScript, Node.js, React, TypeScript, and modern front-end development.
-date: 2020-07-01 12:00:00
+title: Freelance JavaScript Developer and Consultant - Gaya Kessler
+description: Freelance developer and consultant from the Netherlands. Specialises in JavaScript, Node.js, TypeScript, React, and front-end development.
+date: 2023-01-01 15:00:00
 language: en
 pageHeader: en-index
 ---
@@ -15,6 +15,20 @@ pageHeader: en-index
   <span>Freelance Developer,<br>Gaya Kessler</span>
 </section>
 
+# Looking for a freelance developer or consultant?
+
+## What I offer:
+
+- A **reliable** and motivated freelance developer with your **product and its end-users** as the **top priority**
+- Well-thought-out **development of your product** and idea
+- **Lots of professional experience** creating for the web **since 2006**.
+- **Pragmatic approach** for building and improving your existing product.
+- Help and coach your in-house developers to **a higher level**.
+
+<section class="contact-now">
+  <a class="contact-now__link" href="#contact">Get in touch</a>
+</section>
+
 > I create **web applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
 
 My name is **Gaya Kessler**, an independent (full stack) web developer located in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
@@ -22,18 +36,6 @@ My name is **Gaya Kessler**, an independent (full stack) web developer located i
 My passion is to create _the best for the web_, and to always keep up with the latest technologies and trends.
 
 In a nutshell: **I create simple solutions to complex problems.**
-
-<section class="contact-now">
-  <a class="contact-now__link" href="#contact">Get in touch</a>
-</section>
-
-## Hire me for
-
-- A **reliable** and motivated freelance developer with the **product and end-users as a priority**. 
-- Well-thought-out **development of your product** and idea.
-- Over **15 years** of professional experience creating for the web.
-- **Pragmatic approach** to improving your existing product.
-- Help lift your in-house developers to **a new level**.
 
 ## What I am Good at
 

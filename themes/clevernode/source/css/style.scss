@@ -3,8 +3,8 @@
 
 $bg: #f2f2f2;
 $dark-bg: #151515;
-$primary: #fa6900;
-$secondary: #004ffa;
+$primary: #c03319;
+$secondary: #158d38;
 
 $screen-sm: 500px;
 $screen-md: 760px;
@@ -46,23 +46,7 @@ a {
 .header {
   position: relative;
   overflow: hidden;
-
-  &:before {
-    @extend %bg-pattern;
-    position: absolute;
-    content: "";
-    height: 100%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    width: 250%;
-    margin-left: -75%;
-    z-index: -1;
-
-    @media (min-width: $screen-sm) {
-      width: 200%;
-      margin-left: -50%;
-    }
-  }
+  background: $dark-bg;
 
   &__container {
     @extend %container;
@@ -72,19 +56,20 @@ a {
     opacity: 0.9;
     color: $bg;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
     margin: 0 auto;
-    width: 200px;
+    width: 265px;
 
     @media (min-width: $screen-sm) {
       padding-bottom: 30px;
       font-size: 1.4em;
       line-height: 1.4em;
-      width: 258px;
+      width: 340px;
     }
 
     @media (min-width: $screen-md) {
-      padding-bottom: 40px;
+      padding-bottom: 50px;
     }
   }
 
@@ -110,11 +95,20 @@ a {
         text-decoration: none;
         display: inline-block;
         padding: 6px 18px;
+        transition: color ease 0.2s, border-color ease 0.2s;
+
+        &:hover {
+          color: $secondary;
+        }
       }
 
       &--attn {
         a {
           border: 1px solid $bg;
+
+          &:hover {
+            border-color: $secondary;
+          }
         }
       }
     }
@@ -194,12 +188,12 @@ a {
     border-radius: 10px;
     padding: 20px 34px;
     text-transform: uppercase;
-    box-shadow: 5px 5px 0 lighten($primary, 20);
+    box-shadow: 5px 5px 0 darken($primary, 10);
 
     &:hover, &:focus {
-      background: $dark-bg;
+      background: $secondary;
       color: $bg;
-      box-shadow: 5px 5px 0 #666;
+      box-shadow: 3px 3px 0 darken($secondary, 10);
     }
   }
 }
@@ -248,7 +242,7 @@ a {
   }
 
   @media (min-width: $screen-sm) {
-    margin: 20px 0 20px 50px;
+    margin: 50px 0 20px 50px;
     width: 128px;
     float: right;
     shape-outside: ellipse(104px 114px at center center);
@@ -260,9 +254,9 @@ a {
   }
 
   @media (min-width: $screen-md) {
+    margin: 96px 0 -3vw 50px;
     width: 256px;
-    shape-outside: ellipse(157px 190px at 174px 180px);
-    margin-right: -3vw;
+    shape-outside: ellipse(157px 190px at 158px 223px);
 
     img {
       width: 256px;
@@ -329,6 +323,10 @@ a {
   h2 {
     font-size: 20px;
     margin-top: 72px;
+  }
+
+  h1 + h2 {
+    margin-top: 2em;
   }
 
   p {
@@ -682,10 +680,9 @@ a {
 }
 
 .footer {
-  @extend %bg-pattern;
+  background: $dark-bg;
   clear: both;
   color: $bg;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -705,22 +702,22 @@ a {
   flex-grow: 1;
 
   .header-logo__box {
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
   }
 
   @media (min-width: $screen-sm) {
     padding: 0 20px 20px 20px;
 
     .header-logo__box {
-      margin: 20px auto;
+      margin: 20px auto 0 auto;
     }
   }
 
   @media (min-width: $screen-md) {
-    padding: 0 30px 240px 30px;
+    padding: 0 30px 120px 30px;
 
     .header-logo__box {
-      margin: 60px auto;
+      margin: 60px auto 0 auto;
     }
   }
 }
