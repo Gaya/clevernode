@@ -259,10 +259,10 @@ a {
   }
 
   @media (min-width: $screen-sm) {
-    margin: 50px 0 20px 50px;
-    width: 128px;
+    margin: 50px 0 20px 12px;
+    width: 178px;
     float: right;
-    shape-outside: ellipse(104px 114px at center center);
+    shape-outside: ellipse(135px 135px at center center);
 
     img {
       width: 128px;
@@ -271,9 +271,9 @@ a {
   }
 
   @media (min-width: $screen-md) {
-    margin: 96px 0 -3vw 50px;
+    margin: 96px 0 0 50px;
     width: 256px;
-    shape-outside: ellipse(157px 190px at 158px 223px);
+    shape-outside: ellipse(203px 190px at 172px 258px);
 
     img {
       width: 256px;
@@ -363,7 +363,7 @@ a {
       list-style: none;
       padding-left: 0;
 
-      &::marker {
+      &::before {
         content: "";
       }
 
@@ -377,8 +377,11 @@ a {
     li {
       margin: 1em 0 1em 1em;
       padding-left: 1em;
+      position: relative;
 
-      &::marker {
+      &::before {
+        position: absolute;
+        left: -14px;
         content: "✓";
         margin-right: 1em;
         font-size: 1.3em;
@@ -592,7 +595,7 @@ a {
 
 .address {
   text-align: center;
-  padding: 10px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -602,10 +605,6 @@ a {
     font-size: 0.8em;
     margin: 2em auto;
     max-width: 300px;
-  }
-
-  @media (min-width: $screen-sm) {
-    padding: 20px;
   }
 
   @media (min-width: $screen-md) {
@@ -719,7 +718,7 @@ a {
 .footer__outro {
   color: lighten($dark-bg, 50);
   text-align: center;
-  padding: 0 10px 10px 10px;
+  padding: 0 24px 24px 24px;
   flex-grow: 1;
 
   .header-logo__box {
@@ -727,8 +726,6 @@ a {
   }
 
   @media (min-width: $screen-sm) {
-    padding: 0 20px 20px 20px;
-
     .header-logo__box {
       margin: 20px auto 0 auto;
     }

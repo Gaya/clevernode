@@ -100,7 +100,7 @@ I help teams create readable solutions and future-proof code.
 <section class="testimonials">
     <div class="testimonials__item">
         <section class="testimonials__item__avatar">
-            <img src="/images/scott-basgaard.jpg" alt="Scott Basgaard, CTO at Intoto" title="Scott Basgaard, CTO at Intoto">
+            <img width=200 height=200 src="/images/scott-basgaard.jpg" alt="Scott Basgaard, CTO at Intoto" title="Scott Basgaard, CTO at Intoto">
         </section>
         <div class="testimonials__item__quote">
             <blockquote>
@@ -111,7 +111,7 @@ I help teams create readable solutions and future-proof code.
     </div>
     <div class="testimonials__item">
         <section class="testimonials__item__avatar">
-            <img src="/images/robin-verlangen.jpg" alt="Robin Verlangen, CTO at Route42" title="Robin Verlangen, CTO at Route42">
+            <img width=200 height=200 src="/images/robin-verlangen.jpg" alt="Robin Verlangen, CTO at Route42" title="Robin Verlangen, CTO at Route42">
         </section>
         <div class="testimonials__item__quote">
             <blockquote>
@@ -122,7 +122,7 @@ I help teams create readable solutions and future-proof code.
     </div>
     <div class="testimonials__item">
         <section class="testimonials__item__avatar">
-            <img src="/images/tom-hirst.jpg" alt="Tom Hirst, Freelance WordPress Developer" title="Tom Hirst, Freelance WordPress Developer">
+            <img width=200 height=200 src="/images/tom-hirst.jpg" alt="Tom Hirst, Freelance WordPress Developer" title="Tom Hirst, Freelance WordPress Developer">
         </section>
         <div class="testimonials__item__quote">
             <blockquote>
