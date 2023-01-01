@@ -46,7 +46,7 @@ a {
 .header {
   position: relative;
   overflow: hidden;
-  background: $dark-bg;
+  @extend %bg-pattern;
 
   &__container {
     @extend %container;
@@ -170,11 +170,23 @@ a {
 
 .contact-now {
   padding: 0;
-  margin: 48px 0;
+  margin: 48px 0 96px;
   max-width: $container-width;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media (min-width: $screen-md) {
+    justify-content: flex-start;
+    padding-left: 34px;
+  }
+
+  &.centred {
+    @media (min-width: $screen-md) {
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
 
   &__link {
     color: $bg;
@@ -554,7 +566,7 @@ a {
       margin: 12px 0;
       font-size: 0.8em;
       text-align: center;
-      opacity: 0.7;
+      opacity: 0.6;
     }
   }
 }
@@ -680,7 +692,7 @@ a {
 }
 
 .footer {
-  background: $dark-bg;
+  @extend %bg-pattern;
   clear: both;
   color: $bg;
   display: flex;

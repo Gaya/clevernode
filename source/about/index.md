@@ -1,7 +1,7 @@
 ---
-title: About Gaya Kessler - CleverNode
+title: About Gaya Kessler
 description: Learn a bit more about Gaya Kessler's personal life, a freelance web developer.
-date: 2020-07-08 12:00:00
+date: 2023-01-01 15:00:00
 language: en
 pageHeader: en-index
 ---
@@ -10,17 +10,17 @@ pageHeader: en-index
 
 > I am a freelance web developer specialising in JavaScript, living in Deurne, a small town in the south of The Netherlands, close to Eindhoven.
 
-I've been a developer professionally for over 14 years. That's almost half of the time I've been alive!
+I've been a developer professionally since 2006. That's almost half of the time I've been alive!
 
 <picture class="picture picture--fullwidth">
     <img src="./gaya-de-rips-stippelberg.jpg" alt="Gaya Kessler at Stippelberg, De Rips, The Netherlands" />
 </picture>
 
-Since I was young **I've always had an interest in creating things** on the computer. This varied from creating video games, drawing, making music, and eventually programming.
+Since I was young **I've always had an interest in creating things** with a computer. This varied from creating video games, drawing, making music, and eventually programming.
 
-Because I had the possibility to learn computer science during my time at high school I got a taste of what it could be to do this for a living. I couldn't believe **something this much fun is actually a job** I could get paid for. 
+Because I had the possibility to learn computer science during my time in high school I got a taste of what it could be to do this for a living. I couldn't believe **something this much fun was actually a job** I could get paid for. 
 
-From my room in my parents' attic and a slow internet connection I started learning how to **code websites from scratch** and program the back-end systems supporting it.
+From my room in my parents' attic and a really slow internet connection I started learning how to **code websites from scratch** and program the back-end systems supporting it.
 
 I later went to university to get a **bachelors degree in Computer Science**. Around the same time I got a part-time job at a [local web development company](https://cybox.nl), where I learned a lot more than what school was teaching. I'll be forever thankful for the opportunity I got working there.
 
@@ -28,11 +28,11 @@ I later went to university to get a **bachelors degree in Computer Science**. Ar
     <img src="./gaya-daantje.jpg" alt="Gaya Kessler with his little sister, Daantje" />
 </picture>
 
-Because I was learning so much, I decided it was a good idea to [write down what I was learning](https://gaya.pizza) about in a weblog. To this day I still **write from time to time**. It helps me collect my thoughts and share them with the world.
+Because I was learning so much, I decided it was a good idea to [write down what I was learning](https://gaya.pizza) about in a weblog. To this day I still **write from time to time**, but rarely. It helps me collect my thoughts and share them with the world.
 
-I've worked as an employee at a handful of different companies through the years. This allowed me to _not only_ grow from a _technical perspective_, but also _personally_. In my experience I've grown the most by working at such a variety of different companies and projects. This also allowed me to **know what I am good at**, and which environments suit me best. 
+I've worked as an employee at a handful of different companies through the years. This allowed me to _not only_ grow from a _technical perspective_, but also _personally_. In my opinion I've grown so much because I worked at such a variety of different companies and projects. This also allowed me to **know what I am good at**, and which working environments suit me best. 
 
-Through the years I always focused my work around **learning and challenging myself**. I love sharing this knowledge and have **spoken at various meetups and conferences**. Sharing knowledge and helping people improve their skills is something I get the most satisfaction out off.
+Through the years I always centred my work around **learning and challenging myself**. I love sharing this knowledge and have **spoken at various meetups and conferences**. Sharing knowledge and helping people improve their skills is something I get the most satisfaction out off.
 
 <picture class="picture picture--whisky">
     <img src="./gaya-strathisla.jpg" alt="Gaya Kessler at Strathisla distillery in Scotland" />
@@ -40,9 +40,9 @@ Through the years I always focused my work around **learning and challenging mys
 
 One of the things I seem to like the best was _JavaScript_ and making a web page interactive. I tried to do as much work with JavaScript and tried to utilise it for projects at jobs I had in order to **hone my skills**.
 
-For the sake practising and learning even more **I started a lot of side-projects**. Such as [Drammit](https://dramm.it) where I wanted to create my own app. This project saw a few iterations where I learned a lot of new techniques which I then applied to my day to day job.
+For the sake practising and learning even more **I started a lot of side-projects**. Such as [Drammit](https://dramm.it) where I wanted to create my own app. This project saw a few iterations where I learned a lot of new techniques which I then was able to apply in my day-to-day job.
 
-After ten years of working at companies, I thought it was time to **move on and work freelance**. This has allowed me to work for awesome companies like [Philips](https://philips.com), [Route42](https://route42.nl), [BrewPi](https://brewpi.com), and [Dekode](https://dekode.no). Whilst also creating more breathing room for my personal endeavours.
+After ten years of working at companies, I thought it was time to **move on and work freelance**. This has allowed me to work for awesome companies like [Philips](https://philips.com), [Route42](https://route42.nl), [Intoto](https://intoto.io), [BrewPi](https://brewpi.com), and [Dekode](https://dekode.no). Whilst also creating more breathing room for my personal endeavours.
 
 <picture class="picture picture--marathon">
     <img src="./gaya-marathon-eindhoven.jpg" alt="Gaya Kessler at Eindhoven marathon" />
@@ -50,15 +50,17 @@ After ten years of working at companies, I thought it was time to **move on and 
 
 Apart from development and programming I like to take enough time off to enjoy life away from the desk.
 
-I am an active **runner**, which helps me both physically and mentally. I created [Create My Run](https://createmy.run), a small web application where runners can generate their runs based on location and distance they'd wish to run.
+I am a **runner** and cycle frequently, which helps me both physically and mentally. I created [Create My Run](https://createmy.run), a small web application where runners can generate their runs based on location and distance they'd wish to run.
 
-You can find me at **loud music** concerts drinking a beer and banging my head. I also play in a band called Dead Soil, and [share some solo music on Youtube](https://www.youtube.com/channel/UChnJcc3EMvjjzx_yc0nUuSA).  
+You can find me at **loud music** concerts drinking a beer and banging my head. I also play in a band called Dead Soil, and [share some solo music on Youtube](https://www.youtube.com/channel/UChnJcc3EMvjjzx_yc0nUuSA).
+
+I live with three rescue **cats**: Dexter, Darwin, and Donnie.
 
 I love to **cook** for me and my wife, friends, and family. 
 
-I enjoy a good **glass of whisky** (or whiskey) with good company and a good conversation. 
+I enjoy a good **glass of whisky** (or whiskey), craft beer, or wine, with good company and a good conversation. 
 
-I believe living a **sustainable lifestyle** is best for the planet, the animals, the people I love, and myself.
+I believe living a **sustainable lifestyle** is best for the planet, animals, the people I love, and myself.
 
 ## Let's get in touch
 

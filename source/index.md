@@ -26,38 +26,38 @@ pageHeader: en-index
 - Help and coach your in-house developers to **a higher level**.
 
 <section class="contact-now">
-  <a class="contact-now__link" href="#contact">Get in touch</a>
+  <a class="contact-now__link" href="#contact">Get in touch now</a>
 </section>
 
-> I create **web applications** for the Internet and mobile platforms. Both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, TypeScript, and modern front-end.
+> I create **web applications**, both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, and TypeScript.
 
-My name is **Gaya Kessler**, an independent (full stack) web developer located in the Netherlands. Opinionated, always ready for a discussion, and to help build something great.
+My name is **Gaya Kessler**, an independent (full stack) web developer located in the south of the Netherlands.
 
-My passion is to create _the best for the web_, and to always keep up with the latest technologies and trends.
+Opinionated, always ready for a discussion, and to help build something great.
 
-In a nutshell: **I create simple solutions to complex problems.**
+My goal is to **create simple solutions to complex problems.**
 
 ## What I am Good at
 
-The main value I provide is that I can take a **complex subject** and turn it into something **understandable**. This way even starting programmers can follow what the complex parts of your product are doing.
+The main value I provide is that I can take a **complicated subject** and turn it into something **understandable**. This way even programmers who are just starting out can follow what the complex parts of your product are doing.
 
-I love **sharing my knowledge** and like to **teach and mentor developers** while I work on projects. This way the team I am working with will get a bit of my experience transferred to them.
+I love **sharing knowledge** and like to **teach and mentor developers** whilst I work on projects. This way the developers I am working with will get a bit of my experience transferred to them.
 
-My belief is that I **bring more value** to the product if I teach my ways to the current development team.
+By sharing what I know I **bring more value** to the product and to the current development team.
 
-My work is at its best in **agile environments**, and with **remote teams**. On site is also possible.
+My work is at its best in **agile environments**, and with **remote teams**. On-site is also possible.
 
 ## Why Hire me?
 
-Hire me for **freelance JavaScript / React development**. I can solve your whole **front-end of your projects**. My experience lies in creating solid and stable applications which teams of developers like to keep working on and improve.
+Hire me for **freelance JavaScript / React development**. I can solve the whole **front-end of your projects**. My experience lies in creating solid and stable applications which developers like to iterate on.
 
-My strength is that I know how to structure and create the **right architectures for complex web applications**. I also have an eye for code quality and following best-practises.
+My strength lies in that I know how to structure and create the **right architectures for complex web applications**. I also have an eye for code quality and following best-practises.
 
 I also have a background in **backend / web services development**, therefore **I can cover a broad spectrum of needs**. This also makes it a lot easier for me to interact with existing teams.
 
-I help teams create readable solutions and future proof code.
+I help teams create readable solutions and future-proof code.
 
-<section class="contact-now">
+<section class="contact-now centred">
   <a class="contact-now__link" href="#contact">Contact me now</a>
 </section>
 
@@ -70,11 +70,11 @@ I help teams create readable solutions and future proof code.
     </div>
     <div class="projects__item">
         <a href="https://graylog.com"><img src="/images/graylog.svg" alt="Graylog"></a>
-        <p>React development for core and cloud product</p>
+        <p>React development for the core and cloud product</p>
     </div>
     <div class="projects__item">
         <a href="https://intoto.io"><img src="/images/intoto-logo.svg" alt="Intoto"></a>
-        <p>Visualising intelligent river data</p>
+        <p>Visualising intelligent river data with React, D3, Node.js</p>
     </div>
     <div class="projects__item">
         <a href="https://route42.nl"><img src="/images/route42-logo.svg" alt="Route42"></a>
@@ -160,11 +160,11 @@ Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScr
 
 ## Professional Experience
 
-I have been working in web development professionally from 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
+I have been working in web development professionally since 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
 
 I also occasionally **speak at meetups, conferences, and do in-company training** about technology and trends.
 
-In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown applications**; anything is possible.
+In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown enterprise level applications**; anything is possible.
 
 [Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
 
@@ -173,6 +173,10 @@ In the past I have worked on projects of various sizes. This helped me in choosi
 Apart from freelance work, I also spend a lot of my time working on side-projects. Here are some projects I've launched over the years.
 
 <section class="projects">
+    <div class="projects__item">
+        <a href="https://wreckeys.com"><img src="/images/wreckeys-logo.svg" alt="Wreckey's" /></a>
+        <p>Custom-made MIDI projects</p>
+    </div>
     <div class="projects__item">
         <a href="https://usethyme.com"><img src="/images/thyme-logo.svg" alt="Thyme" /></a>
         <p>Privacy First Time Tracker</p>
