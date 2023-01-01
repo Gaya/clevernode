@@ -23,8 +23,8 @@ body {
 %bg-pattern {
   background: {
     color: $dark-bg;
-    image: url('../images/header-bg-pattern.png');
-    size: 73px 42px;
+    image: url('../images/bg_pattern.png');
+    size: 34px 50px;
     attachment: fixed;
     position: center center;
   }
@@ -48,8 +48,13 @@ a {
   overflow: hidden;
   @extend %bg-pattern;
 
+  &__wrap {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5) 100%);
+  }
+
   &__container {
     @extend %container;
+    z-index: 10;
   }
 
   &__slogan {
@@ -75,12 +80,12 @@ a {
 
   &__menu {
     display: flex;
-    margin-bottom: 1em;
+    padding-bottom: 1em;
     justify-content: center;
     align-content: center;
 
     @media (min-width: $screen-md) {
-      margin-bottom: 2em;
+      padding-bottom: 2em;
     }
 
     &__item {
@@ -704,6 +709,10 @@ a {
 
   @media (min-width: $screen-md) {
     margin-top: 4em;
+  }
+
+  &__wrap {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5) 100%);
   }
 }
 
