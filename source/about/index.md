@@ -1,5 +1,5 @@
 ---
-title: About Gaya Kessler
+title: About Gaya Kessler - CleverNode
 description: Learn a bit more about Gaya Kessler's personal life, a freelance web developer.
 date: 2023-01-01 15:00:00
 language: en

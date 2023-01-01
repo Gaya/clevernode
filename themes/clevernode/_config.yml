@@ -16,6 +16,7 @@ rss: /atom.xml
 # Content
 excerpt_link: Read More
 fancybox: true
+canonical: true
 
 headbar:
   avatar: false
