@@ -19,9 +19,9 @@ pageHeader: en-index
 
 ## What I offer:
 
-- A **reliable** and motivated freelance developer with your **product and its end-users** as the **top priority**
+- A **reliable** and motivated freelance developer with your **product and its end-users** as the top priority
 - Well-thought-out **development of your product** and idea
-- **Lots of professional experience** creating for the web **since 2006**.
+- **Lots of professional experience** creating for the web since 2006.
 - **Pragmatic approach** for building and improving your existing product.
 - Help and coach your in-house developers to **a higher level**.
 
@@ -29,7 +29,7 @@ pageHeader: en-index
   <a class="contact-now__link" href="#contact">Get in touch now</a>
 </section>
 
-> I create **web applications**, both in the front-end and in the back-end. Specialised in **JavaScript**, **React**, Node.js, and TypeScript.
+> I create web applications, both in the front-end and in the back-end. Specialised in **JavaScript, React, Node.js, and TypeScript**.
 
 My name is **Gaya Kessler**, an independent (full stack) web developer located in the south of the Netherlands.
 
@@ -45,15 +45,15 @@ I love **sharing knowledge** and like to **teach and mentor developers** whilst 
 
 By sharing what I know I **bring more value** to the product and to the current development team.
 
-My work is at its best in **agile environments**, and with **remote teams**. On-site is also possible.
+My work is at its best in **agile environments**, and with remote teams. On-site is also possible.
 
 ## Why Hire me?
 
-Hire me for **freelance JavaScript / React development**. I can solve the whole **front-end of your projects**. My experience lies in creating solid and stable applications which developers like to iterate on.
+Hire me for **freelance JavaScript / React development**. I can solve the whole front-end of your projects. My experience lies in creating solid and stable applications which developers like to iterate on.
 
 My strength lies in that I know how to structure and create the **right architectures for complex web applications**. I also have an eye for code quality and following best-practises.
 
-I also have a background in **backend / web services development**, therefore **I can cover a broad spectrum of needs**. This also makes it a lot easier for me to interact with existing teams.
+I also have a background in backend / web services development, therefore I can cover a broad spectrum of needs. This also makes it a lot easier for me to interact with existing teams.
 
 I help teams create readable solutions and future-proof code.
 
@@ -137,7 +137,7 @@ I help teams create readable solutions and future-proof code.
 
 While the technologies I use do not necessarily affect the results of my work, it shows what I most comfortable with.
 
-Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScript using **Node.js**, front-end development, **React**, Redux, **WebPack**, **Single Page Applications** / Progressive Web Apps, and mobile apps (**React Native**).
+Subjects I mainly focus on are JavaScript (and TypeScript), back-end JavaScript using Node.js, front-end development, React, Redux, WebPack, Single Page Applications / Progressive Web Apps, and mobile apps (React Native).
 
 <section class="experience experience--logos">
   <div class="experience__item">
@@ -162,9 +162,9 @@ Subjects I mainly focus on are **JavaScript** (and TypeScript), back-end JavaScr
 
 I have been working in web development professionally since 2006. Since then, I've seen a lot of trends come and go, which has formed a solid opinion on what works, and what doesn't, what sticks, and what doesn't.
 
-I also occasionally **speak at meetups, conferences, and do in-company training** about technology and trends.
+I also occasionally speak at meetups, conferences, and do in-company training about technology and trends.
 
-In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From **small JavaScript widgets** to **full-blown enterprise level applications**; anything is possible.
+In the past I have worked on projects of various sizes. This helped me in choosing the right tool for the job. From small JavaScript widgets to full-blown enterprise level applications; anything is possible.
 
 [Read my full resumé](https://github.com/Gaya/resume) for my past work experience.
 

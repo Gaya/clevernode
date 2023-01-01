@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta name="robots" content="noodp,noydir">
 <%
-var title = page.title ? `${page.title} - ${config.title}` : config.title;
+var title = page.title ? page.title : config.title;
 %>
 <title><%= title %></title>
 <% if (page.description) { %>
