@@ -73,6 +73,10 @@ I help teams create readable solutions and future-proof code.
         <p>React development for the core and cloud product</p>
     </div>
     <div class="projects__item">
+        <a href="https://netthandelsgruppen.no/"><img src="/images/nhg-logo.svg" alt="Netthandelsgruppen"></a>
+        <p>E-commerce dashboards and React powered tooling</p>
+    </div>
+    <div class="projects__item">
         <a href="https://intoto.io"><img src="/images/intoto-logo.svg" alt="Intoto"></a>
         <p>Visualising intelligent river data with React, D3, Node.js</p>
     </div>
@@ -83,15 +87,6 @@ I help teams create readable solutions and future-proof code.
     <div class="projects__item">
         <a href="https://dekode.no"><img src="/images/dekode.svg" alt="Dekode"></a>
         <p>Node.js web services, mobile and web applications</p>
-    </div>
-    <div class="projects__item">
-        <a href="https://www.brewpi.com/">
-            <picture>
-                <source srcset="/images/brewpi-logo.webp" type="image/webp">
-                <img src="/images/brewpi-logo.png" alt="BrewPi">
-            </picture>
-        </a>
-        <p>Web Application for a Brewery Controller</p>
     </div>
 </section>
 
