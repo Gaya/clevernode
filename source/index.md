@@ -8,22 +8,22 @@ pageHeader: en-index
 
 <section class="avatar">
   <picture class="avatar__picture" alt="Gaya Kessler" title="Gaya Kessler">
-    <source srcset="/images/avatar.jp2, /images/avatar@2x.jp2 2x" type="image/jp2">
     <source srcset="/images/avatar.jpg, /images/avatar@2x.jpg 2x" type="image/jpg">
     <img src="/images/avatar@2x.jpg" alt="Gaya Kessler" title="Gaya Kessler">
   </picture>
-  <span>Freelance Developer,<br>Gaya Kessler</span>
+  <span>Consultant and Developer,<br>Gaya Kessler</span>
 </section>
 
-# Looking for a freelance developer or consultant?
+# Looking for a freelance developer consultant?
 
 ## What I offer:
 
+- Advise on how to **tackle the problems** you face building your products
 - A **reliable** and motivated freelance developer with your **product and its end-users** as the top priority
 - Well-thought-out **development of your product** and idea
 - **Lots of professional experience** creating for the web since 2006.
-- **Pragmatic approach** for building and improving your existing product.
-- Help and coach your in-house developers to **a higher level**.
+- **Pragmatic approach** for building and **improving** your existing **product**.
+- Help and **coach your in-house developers to a higher level**.
 
 <section class="contact-now">
   <a class="contact-now__link" href="#contact">Get in touch now</a>
