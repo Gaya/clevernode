@@ -18,7 +18,7 @@ pageHeader: en-index
 
 ## What I offer:
 
-- Advise on how to **tackle the problems** you face building your products
+- Advice on how to **tackle the problems** you face building your products
 - A **reliable** and motivated freelance developer with your **product and its end-users** as the top priority
 - Well-thought-out **development of your product** and idea
 - **Lots of professional experience** creating for the web since 2006.
