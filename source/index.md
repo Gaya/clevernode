@@ -73,16 +73,20 @@ I help teams create readable solutions and future-proof code.
         <p>React development for the core and cloud product</p>
     </div>
     <div class="projects__item">
-        <a href="https://netthandelsgruppen.no/"><img src="/images/nhg-logo.svg" alt="Netthandelsgruppen"></a>
-        <p>E-commerce dashboards and React powered tooling</p>
-    </div>
-    <div class="projects__item">
         <a href="https://intoto.io"><img src="/images/intoto-logo.svg" alt="Intoto"></a>
         <p>Visualising intelligent river data with React, D3, Node.js</p>
     </div>
     <div class="projects__item">
+        <a href="https://infowijs.nl"><img src="/images/infowijs-logo.svg" alt="Infowijs"></a>
+        <p>React education and development of school communication platforms</p>
+    </div>
+    <div class="projects__item">
+        <a href="https://netthandelsgruppen.no/"><img src="/images/nhg-logo.svg" alt="Netthandelsgruppen"></a>
+        <p>E-commerce dashboards and React powered tooling</p>
+    </div>
+    <div class="projects__item">
         <a href="https://route42.nl"><img src="/images/route42-logo.svg" alt="Route42"></a>
-        <p>Improving development experience and educating development team</p>
+        <p>Improving development experience and education of development team</p>
     </div>
     <div class="projects__item">
         <a href="https://dekode.no"><img src="/images/dekode.svg" alt="Dekode"></a>
