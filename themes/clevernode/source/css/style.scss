@@ -11,6 +11,10 @@ $screen-md: 760px;
 $screen-lg: 1100px;
 $container-width: 720px;
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $bg;
   color: $dark-bg;
@@ -103,7 +107,7 @@ a {
         transition: color ease 0.2s, border-color ease 0.2s;
 
         &:hover {
-          color: $secondary;
+          color: $primary;
         }
       }
 
@@ -112,7 +116,7 @@ a {
           border: 1px solid $bg;
 
           &:hover {
-            border-color: $secondary;
+            border-color: $primary;
           }
         }
       }
@@ -712,6 +716,7 @@ a {
 
   &__wrap {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.5) 100%);
+    min-height: 100vh;
   }
 }
 
